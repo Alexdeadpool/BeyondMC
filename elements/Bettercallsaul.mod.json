@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Better call saul",
+    "texture": "bettercallsaultexture",
+    "description": "World's second best lawyer theme song",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:bettercallsaul"
+    },
+    "lengthInTicks": 1000,
+    "analogOutput": 0
+  }
+}

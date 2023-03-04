@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyondmc:block/methglass"
+    },
+    "type=top": {
+      "model": "beyondmc:block/methglass_top"
+    },
+    "type=double": {
+      "model": "beyondmc:block/methglass_full"
+    }
+  }
+}

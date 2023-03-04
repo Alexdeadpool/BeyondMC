@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "beyondmc:blocks/cocainblocktexture1",
+    "particle": "beyondmc:blocks/cocainblocktexture1"
+  },
+  "render_type": "cutout"
+}

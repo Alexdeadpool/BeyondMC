@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "beyondmc:blocks/weed0texture",
+    "particle": "beyondmc:blocks/weed0texture"
+  },
+  "render_type": "cutout"
+}

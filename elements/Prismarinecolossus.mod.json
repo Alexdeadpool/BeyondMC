@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Prismarine colossus",
+    "texture": "admincolossus",
+    "description": "RUN",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:prismarinecolossus"
+    },
+    "lengthInTicks": 1000,
+    "analogOutput": 0
+  }
+}

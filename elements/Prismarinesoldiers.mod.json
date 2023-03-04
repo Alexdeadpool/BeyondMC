@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Prismarine soldiers",
+    "texture": "prismarinesoldiers",
+    "description": "HIDE",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:peismarinesoldiers"
+    },
+    "lengthInTicks": 1000,
+    "analogOutput": 0
+  }
+}

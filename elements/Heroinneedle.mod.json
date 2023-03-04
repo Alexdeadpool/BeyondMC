@@ -1,0 +1,50 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "heroin_needle",
+    "customModelName": "Normal",
+    "name": "Heroinneedle",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "specialInfo": [
+      "Don't"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "onRightClickedInAir": {
+      "name": "HeroinneedleRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "HeroinneedleLivingEntityIsHitWithItem"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

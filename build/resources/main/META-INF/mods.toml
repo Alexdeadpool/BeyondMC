@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="beyondmc"
+version="1.0.0"
+displayName="Beyondmc"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://discord.gg/q9RCaCM2tQ"
+logoFile="logo.png"
+authors="Alexdeadpool"
+description='''
+Ongoing development. We do not endorse or condone the use of drugs, nor do we glorify the use of which in this mod.
+'''
+
+[[dependencies.beyondmc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

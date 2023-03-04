@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "beyondmc:blocks/methglasstexture",
+    "top": "beyondmc:blocks/methglasstexture",
+    "side": "beyondmc:blocks/methglasstexture"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondmc:blocks/energycoretexture3",
+    "up": "beyondmc:blocks/energycoretexture3",
+    "north": "beyondmc:blocks/energycoretexture",
+    "east": "beyondmc:blocks/energycoreside2",
+    "south": "beyondmc:blocks/energycoretexture3",
+    "west": "beyondmc:blocks/energycoreside2",
+    "particle": "beyondmc:blocks/energycoretexture3"
+  },
+  "render_type": "solid"
+}

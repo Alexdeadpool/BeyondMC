@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondmc:suspiciousseeds"
+    },
+    "1": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "2": {
+      "item": "beyondmc:steroidcapsule"
+    }
+  },
+  "result": {
+    "item": "beyondmc:steroids",
+    "count": 1
+  }
+}

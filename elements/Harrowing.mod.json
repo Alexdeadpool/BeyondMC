@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Harrowing",
+    "icon": "harrowingtexture.png",
+    "color": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "HarrowingEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "HarrowingOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "HarrowingEffectExpires"
+    }
+  }
+}

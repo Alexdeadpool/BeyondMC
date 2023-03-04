@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "beyondmc:blocks/ironbricks",
+    "particle": "beyondmc:blocks/ironbricks"
+  },
+  "render_type": "solid"
+}

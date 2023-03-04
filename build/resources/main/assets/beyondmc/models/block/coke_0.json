@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "beyondmc:blocks/coke0",
+    "particle": "beyondmc:blocks/coke0"
+  },
+  "render_type": "cutout"
+}

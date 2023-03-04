@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondmc:suspiciousplanks"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "beyondmc:suspiciousplanks"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "beyondmc:meth"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    },
+    "6": {
+      "item": "beyondmc:suspiciousplanks"
+    },
+    "7": {
+      "item": "minecraft:obsidian"
+    },
+    "8": {
+      "item": "beyondmc:suspiciousplanks"
+    }
+  },
+  "result": {
+    "item": "beyondmc:stayoutofmyterritory",
+    "count": 1
+  }
+}

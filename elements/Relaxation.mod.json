@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "relaxation",
+    "icon": "relaxation.png",
+    "color": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "RelaxationEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "RelaxationOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "RelaxationEffectExpires"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Homedepot",
+    "texture": "homedepotdisc",
+    "description": "Your dad's boss music",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:homedeopt"
+    },
+    "lengthInTicks": 1000,
+    "analogOutput": 0
+  }
+}

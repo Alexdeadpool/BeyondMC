@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Stay out of my territory",
+    "texture": "stayoutofmyterritorydisc",
+    "description": "DLZ",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:stayoutofmyterritory"
+    },
+    "lengthInTicks": 1000,
+    "analogOutput": 0
+  }
+}

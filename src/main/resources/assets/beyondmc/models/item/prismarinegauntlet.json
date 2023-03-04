@@ -1,0 +1,9 @@
+{
+  "parent": "beyondmc:custom/prismarinegauntlet",
+  "textures": {
+    "3": "beyondmc:blocks/gauntlet1",
+    "4": "beyondmc:blocks/gauntlet2",
+    "5": "beyondmc:blocks/gauntlet3",
+    "particle": "beyondmc:items/prisgauntlet"
+  }
+}

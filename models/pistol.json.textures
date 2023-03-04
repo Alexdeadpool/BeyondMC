@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pistoltexture1",
+        "1": "pistoltexture2",
+        "2": "pistoltexture3",
+        "3": "pistoltexture4",
+        "4": "pistoltexture5"
+      },
+      "name": "default"
+    }
+  }
+}

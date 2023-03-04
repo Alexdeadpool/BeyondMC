@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "   ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondmc:suspiciouslog"
+    },
+    "1": {
+      "item": "beyondmc:suspiciouslog"
+    },
+    "2": {
+      "item": "beyondmc:suspiciouslog"
+    },
+    "6": {
+      "item": "beyondmc:suspiciousplanks"
+    },
+    "7": {
+      "item": "beyondmc:suspiciousplanks"
+    },
+    "8": {
+      "item": "beyondmc:suspiciousplanks"
+    }
+  },
+  "result": {
+    "item": "beyondmc:steroidcapsule",
+    "count": 1
+  }
+}

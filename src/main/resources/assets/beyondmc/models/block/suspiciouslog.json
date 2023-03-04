@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondmc:blocks/suspiciouslogtexture2",
+    "up": "beyondmc:blocks/suspiciouslogtexture2",
+    "north": "beyondmc:blocks/suspiciouslog",
+    "east": "beyondmc:blocks/suspiciouslog",
+    "south": "beyondmc:blocks/suspiciouslog",
+    "west": "beyondmc:blocks/suspiciouslog",
+    "particle": "beyondmc:blocks/suspiciouslogtexture2"
+  },
+  "render_type": "solid"
+}

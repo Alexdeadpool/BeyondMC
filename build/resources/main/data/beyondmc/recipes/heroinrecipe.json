@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "1": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "2": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "3": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "4": {
+      "item": "beyondmc:suspiciousseeds"
+    },
+    "5": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "6": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "7": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "8": {
+      "item": "beyondmc:suspiciouspowder"
+    }
+  },
+  "result": {
+    "item": "beyondmc:heroin",
+    "count": 1
+  }
+}

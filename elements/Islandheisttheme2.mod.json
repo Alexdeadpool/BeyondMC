@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Island heist theme 2",
+    "texture": "soradisc2",
+    "description": "Island heist theme 2",
+    "creativeTab": {
+      "value": "CUSTOM:Beyond"
+    },
+    "specialInfo": [
+      "By SORA"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:islandheist2"
+    },
+    "lengthInTicks": 1000,
+    "analogOutput": 0
+  }
+}

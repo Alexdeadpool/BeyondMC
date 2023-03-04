@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "beyondmc:space"
+    },
+    "title": {
+      "translate": "advancements.higher.title"
+    },
+    "description": {
+      "translate": "advancements.higher.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "higher": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "beyondmc:high"
+}

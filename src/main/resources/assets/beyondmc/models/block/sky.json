@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "beyondmc:blocks/hightexture",
+    "particle": "beyondmc:blocks/hightexture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondmc:weed"
+    },
+    "1": {
+      "item": "beyondmc:cocain"
+    },
+    "2": {
+      "item": "beyondmc:meth"
+    },
+    "3": {
+      "item": "beyondmc:perc_30"
+    },
+    "4": {
+      "item": "beyondmc:cup"
+    },
+    "5": {
+      "item": "beyondmc:suspiciouspowder"
+    },
+    "6": {
+      "item": "beyondmc:steroids"
+    },
+    "7": {
+      "item": "minecraft:potion"
+    },
+    "8": {
+      "item": "beyondmc:heroin"
+    }
+  },
+  "result": {
+    "item": "beyondmc:lean",
+    "count": 1
+  }
+}

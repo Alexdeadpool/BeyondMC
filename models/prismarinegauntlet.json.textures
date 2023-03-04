@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "gauntlet1",
+        "4": "gauntlet2",
+        "5": "gauntlet3"
+      },
+      "name": "default"
+    }
+  }
+}

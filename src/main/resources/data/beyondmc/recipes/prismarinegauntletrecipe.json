@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald"
+    },
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "2": {
+      "item": "minecraft:emerald"
+    },
+    "3": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "4": {
+      "item": "beyondmc:essence"
+    },
+    "5": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "6": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "7": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "8": {
+      "item": "minecraft:dark_prismarine"
+    }
+  },
+  "result": {
+    "item": "beyondmc:prismarinegauntlet",
+    "count": 1
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "amongus_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:amongus_attack",
+        "stream": false
+      }
+    ]
+  },
+  "amongus_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:amongus_death_-_copy",
+        "stream": false
+      }
+    ]
+  },
+  "amongus_passive": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:amongus_passive_-_copy",
+        "stream": false
+      }
+    ]
+  },
+  "amongwalk": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:amongwalk",
+        "stream": false
+      }
+    ]
+  },
+  "ankles": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:ankles",
+        "stream": false
+      }
+    ]
+  },
+  "gauntlet2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "beyondmc:gauntlet2",
+        "stream": false
+      }
+    ]
+  },
+  "gauntletsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "beyondmc:gauntletsound",
+        "stream": false
+      }
+    ]
+  },
+  "gremlindeath": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:gremlindeath",
+        "stream": false
+      }
+    ]
+  },
+  "gremlinfootsteps": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:gremlinfootsteps",
+        "stream": false
+      }
+    ]
+  },
+  "gremlinouch": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:gremlinouch",
+        "stream": false
+      }
+    ]
+  },
+  "homedeopt": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "beyondmc:homedepot",
+        "stream": true
+      }
+    ]
+  },
+  "passivegremlin": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "beyondmc:passivegremlin",
+        "stream": false
+      }
+    ]
+  },
+  "pistolsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "beyondmc:pistolsound",
+        "stream": false
+      }
+    ]
+  },
+  "bettercallsaul": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:bettercallsaul",
+        "stream": true
+      }
+    ]
+  },
+  "gucci_gang": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:gucci_gang",
+        "stream": true
+      }
+    ]
+  },
+  "breakingbadintro": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:breakingbadintro_-_copy",
+        "stream": true
+      }
+    ]
+  },
+  "higher": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:higher_-_copy",
+        "stream": true
+      }
+    ]
+  },
+  "highest_in_the_room": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:highest_in_the_room_-_copy",
+        "stream": true
+      }
+    ]
+  },
+  "stayoutofmyterritory": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:stayoutofmyterritory",
+        "stream": true
+      }
+    ]
+  },
+  "prismarinecolossus": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "beyondmc:prismarinecolossus",
+        "stream": true
+      }
+    ]
+  },
+  "peismarinesoldiers": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "beyondmc:prismarinesoldiers",
+        "stream": true
+      }
+    ]
+  },
+  "islandheist1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:huge_ret",
+        "stream": true
+      }
+    ]
+  },
+  "islandheist2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "beyondmc:tgyhjv",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "beyondmc:custom/pistol",
+  "textures": {
+    "0": "beyondmc:blocks/pistoltexture1",
+    "1": "beyondmc:blocks/pistoltexture2",
+    "2": "beyondmc:blocks/pistoltexture3",
+    "3": "beyondmc:blocks/pistoltexture4",
+    "4": "beyondmc:blocks/pistoltexture5",
+    "particle": "beyondmc:items/pistolicon"
+  }
+}

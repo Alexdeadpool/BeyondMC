@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Beyond",
+    "icon": {
+      "value": "CUSTOM:Essence"
+    },
+    "showSearch": true
+  }
+}

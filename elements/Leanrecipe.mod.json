@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Weed"
+      },
+      {
+        "value": "CUSTOM:Cocain"
+      },
+      {
+        "value": "CUSTOM:Meth"
+      },
+      {
+        "value": "CUSTOM:Perc30"
+      },
+      {
+        "value": "CUSTOM:Cup"
+      },
+      {
+        "value": "CUSTOM:Suspiciouspowder"
+      },
+      {
+        "value": "CUSTOM:Steroids"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "CUSTOM:Heroin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Lean"
+    },
+    "name": "leanrecipe",
+    "namespace": "mod"
+  }
+}
