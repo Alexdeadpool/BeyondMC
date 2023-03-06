@@ -14,8 +14,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.beyondmc.procedures.RedredstonelampoffRedstoneOnProcedure;
-import net.mcreator.beyondmc.procedures.RedredstonelampoffRedstoneOffProcedure;
+import net.mcreator.beyondmc.procedures.RedstonelamponRedstoneOffProcedure;
 import net.mcreator.beyondmc.init.BeyondmcModBlocks;
 
 import java.util.List;
@@ -23,7 +22,7 @@ import java.util.Collections;
 
 public class RedstonelamponBlock extends Block {
 	public RedstonelamponBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 15).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 15).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
@@ -36,16 +35,15 @@ public class RedstonelamponBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(BeyondmcModBlocks.REDREDSTONELAMPOFF.get()));
+		return Collections.singletonList(new ItemStack(BeyondmcModBlocks.REDREDSTONELAMP.get()));
 	}
 
 	@Override
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
-			RedredstonelampoffRedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		} else {
-			RedredstonelampoffRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+			RedstonelamponRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
 	}
 }

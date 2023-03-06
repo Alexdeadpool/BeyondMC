@@ -9,11 +9,11 @@ import net.mcreator.beyondmc.init.BeyondmcModBlocks;
 
 import java.util.Map;
 
-public class RedredstonelampoffRedstoneOffProcedure {
+public class BlueredstonelamponRedstoneOffProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			BlockPos _bp = new BlockPos(x, y, z);
-			BlockState _bs = BeyondmcModBlocks.REDREDSTONELAMPOFF.get().defaultBlockState();
+			BlockState _bs = BeyondmcModBlocks.BLUEREDSTONELAMP.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

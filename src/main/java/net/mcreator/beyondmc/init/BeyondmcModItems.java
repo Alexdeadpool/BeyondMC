@@ -93,7 +93,6 @@ public class BeyondmcModItems {
 	public static final RegistryObject<Item> SILVERINGOT = REGISTRY.register("silveringot", () -> new SilveringotItem());
 	public static final RegistryObject<Item> IRONBRICKS = block(BeyondmcModBlocks.IRONBRICKS, BeyondmcModTabs.TAB_BEYOND);
 	public static final RegistryObject<Item> SILVERBRICKS = block(BeyondmcModBlocks.SILVERBRICKS, BeyondmcModTabs.TAB_BEYOND);
-	public static final RegistryObject<Item> REDREDSTONELAMPOFF = block(BeyondmcModBlocks.REDREDSTONELAMPOFF, BeyondmcModTabs.TAB_BEYOND);
 	public static final RegistryObject<Item> REDSTONELAMPON = block(BeyondmcModBlocks.REDSTONELAMPON, null);
 	public static final RegistryObject<Item> COKE_0 = block(BeyondmcModBlocks.COKE_0, BeyondmcModTabs.TAB_BEYOND);
 	public static final RegistryObject<Item> COKE_1 = block(BeyondmcModBlocks.COKE_1, BeyondmcModTabs.TAB_BEYOND);
@@ -101,6 +100,9 @@ public class BeyondmcModItems {
 	public static final RegistryObject<Item> COKE_3 = block(BeyondmcModBlocks.COKE_3, BeyondmcModTabs.TAB_BEYOND);
 	public static final RegistryObject<Item> ISLANDHEISTTHEME_1 = REGISTRY.register("islandheisttheme_1", () -> new Islandheisttheme1Item());
 	public static final RegistryObject<Item> ISLANDHEISTTHEME_2 = REGISTRY.register("islandheisttheme_2", () -> new Islandheisttheme2Item());
+	public static final RegistryObject<Item> REDREDSTONELAMP = block(BeyondmcModBlocks.REDREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> BLUEREDSTONELAMP = block(BeyondmcModBlocks.BLUEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> BLUEREDSTONELAMPON = block(BeyondmcModBlocks.BLUEREDSTONELAMPON, BeyondmcModTabs.TAB_BEYOND);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

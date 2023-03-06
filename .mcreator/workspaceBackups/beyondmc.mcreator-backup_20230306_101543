@@ -9,10 +9,10 @@
       "registry_name": "amongus",
       "metadata": {
         "files": [
+          "src/main/resources/data/beyondmc/forge/biome_modifier/amongus_biome_modifier.json",
           "src/main/java/net/mcreator/beyondmc/entity/AmongusEntity.java",
-          "src/main/java/net/mcreator/beyondmc/client/renderer/AmongusRenderer.java",
           "src/main/resources/assets/beyondmc/models/item/amongus_spawn_egg.json",
-          "src/main/resources/data/beyondmc/forge/biome_modifier/amongus_biome_modifier.json"
+          "src/main/java/net/mcreator/beyondmc/client/renderer/AmongusRenderer.java"
         ]
       }
     },
@@ -25,10 +25,10 @@
       "registry_name": "gremlin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/entity/GremlinEntity.java",
-          "src/main/java/net/mcreator/beyondmc/client/renderer/GremlinRenderer.java",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/gremlin_biome_modifier.json",
           "src/main/resources/assets/beyondmc/models/item/gremlin_spawn_egg.json",
-          "src/main/resources/data/beyondmc/forge/biome_modifier/gremlin_biome_modifier.json"
+          "src/main/java/net/mcreator/beyondmc/client/renderer/GremlinRenderer.java",
+          "src/main/java/net/mcreator/beyondmc/entity/GremlinEntity.java"
         ]
       }
     },
@@ -41,8 +41,8 @@
       "registry_name": "prismarinegauntlet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/prismarinegauntlet.json",
-          "src/main/java/net/mcreator/beyondmc/item/PrismarinegauntletItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/PrismarinegauntletItem.java",
+          "src/main/resources/assets/beyondmc/models/item/prismarinegauntlet.json"
         ]
       }
     },
@@ -55,8 +55,8 @@
       "registry_name": "katana",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/KatanaItem.java",
-          "src/main/resources/assets/beyondmc/models/item/katana.json"
+          "src/main/resources/assets/beyondmc/models/item/katana.json",
+          "src/main/java/net/mcreator/beyondmc/item/KatanaItem.java"
         ]
       }
     },
@@ -81,8 +81,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/beyondmc/entity/PistolEntity.java",
-          "src/main/java/net/mcreator/beyondmc/item/PistolItem.java",
-          "src/main/resources/assets/beyondmc/models/item/pistol.json"
+          "src/main/resources/assets/beyondmc/models/item/pistol.json",
+          "src/main/java/net/mcreator/beyondmc/item/PistolItem.java"
         ]
       }
     },
@@ -121,10 +121,10 @@
       "registry_name": "core",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/block/core.json",
-          "src/main/resources/assets/beyondmc/blockstates/core.json",
+          "src/main/java/net/mcreator/beyondmc/block/CoreBlock.java",
           "src/main/resources/assets/beyondmc/models/item/core.json",
-          "src/main/java/net/mcreator/beyondmc/block/CoreBlock.java"
+          "src/main/resources/assets/beyondmc/models/block/core.json",
+          "src/main/resources/assets/beyondmc/blockstates/core.json"
         ]
       }
     },
@@ -137,8 +137,8 @@
       "registry_name": "susknife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/susknife.json",
-          "src/main/java/net/mcreator/beyondmc/item/SusknifeItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/SusknifeItem.java",
+          "src/main/resources/assets/beyondmc/models/item/susknife.json"
         ]
       }
     },
@@ -164,8 +164,8 @@
       "registry_name": "essence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/essence.json",
-          "src/main/java/net/mcreator/beyondmc/item/EssenceItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/EssenceItem.java",
+          "src/main/resources/assets/beyondmc/models/item/essence.json"
         ]
       }
     },
@@ -178,8 +178,8 @@
       "registry_name": "homedepot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/homedepot.json",
-          "src/main/java/net/mcreator/beyondmc/item/HomedepotItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/HomedepotItem.java",
+          "src/main/resources/assets/beyondmc/models/item/homedepot.json"
         ]
       }
     },
@@ -359,10 +359,10 @@
       "registry_name": "weed_0",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/block/weed_0.json",
-          "src/main/resources/assets/beyondmc/blockstates/weed_0.json",
           "src/main/resources/assets/beyondmc/models/item/weed_0.json",
-          "src/main/java/net/mcreator/beyondmc/block/Weed0Block.java"
+          "src/main/resources/assets/beyondmc/models/block/weed_0.json",
+          "src/main/java/net/mcreator/beyondmc/block/Weed0Block.java",
+          "src/main/resources/assets/beyondmc/blockstates/weed_0.json"
         ]
       }
     },
@@ -375,10 +375,10 @@
       "registry_name": "weed_1",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beyondmc/blockstates/weed_1.json",
           "src/main/java/net/mcreator/beyondmc/block/Weed1Block.java",
           "src/main/resources/assets/beyondmc/models/block/weed_1.json",
-          "src/main/resources/assets/beyondmc/models/item/weed_1.json",
-          "src/main/resources/assets/beyondmc/blockstates/weed_1.json"
+          "src/main/resources/assets/beyondmc/models/item/weed_1.json"
         ]
       }
     },
@@ -391,10 +391,10 @@
       "registry_name": "weed_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/block/Weed2Block.java",
           "src/main/resources/assets/beyondmc/models/item/weed_2.json",
+          "src/main/resources/assets/beyondmc/models/block/weed_2.json",
           "src/main/resources/assets/beyondmc/blockstates/weed_2.json",
-          "src/main/resources/assets/beyondmc/models/block/weed_2.json"
+          "src/main/java/net/mcreator/beyondmc/block/Weed2Block.java"
         ]
       }
     },
@@ -407,10 +407,10 @@
       "registry_name": "weed_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/block/Weed3Block.java",
+          "src/main/resources/assets/beyondmc/models/item/weed_3.json",
           "src/main/resources/assets/beyondmc/blockstates/weed_3.json",
-          "src/main/resources/assets/beyondmc/models/block/weed_3.json",
-          "src/main/resources/assets/beyondmc/models/item/weed_3.json"
+          "src/main/java/net/mcreator/beyondmc/block/Weed3Block.java",
+          "src/main/resources/assets/beyondmc/models/block/weed_3.json"
         ]
       }
     },
@@ -476,12 +476,12 @@
       "registry_name": "suspiciousleaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/world/features/ores/SuspiciousleavesFeature.java",
-          "src/main/resources/data/beyondmc/forge/biome_modifier/suspiciousleaves_biome_modifier.json",
-          "src/main/resources/assets/beyondmc/blockstates/suspiciousleaves.json",
-          "src/main/java/net/mcreator/beyondmc/block/SuspiciousleavesBlock.java",
           "src/main/resources/assets/beyondmc/models/block/suspiciousleaves.json",
-          "src/main/resources/assets/beyondmc/models/item/suspiciousleaves.json"
+          "src/main/java/net/mcreator/beyondmc/world/features/ores/SuspiciousleavesFeature.java",
+          "src/main/resources/assets/beyondmc/models/item/suspiciousleaves.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/suspiciousleaves_biome_modifier.json",
+          "src/main/java/net/mcreator/beyondmc/block/SuspiciousleavesBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/suspiciousleaves.json"
         ]
       }
     },
@@ -545,9 +545,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/beyondmc/models/block/suspiciouslog.json",
+          "src/main/java/net/mcreator/beyondmc/block/SuspiciouslogBlock.java",
           "src/main/resources/assets/beyondmc/blockstates/suspiciouslog.json",
-          "src/main/resources/assets/beyondmc/models/item/suspiciouslog.json",
-          "src/main/java/net/mcreator/beyondmc/block/SuspiciouslogBlock.java"
+          "src/main/resources/assets/beyondmc/models/item/suspiciouslog.json"
         ]
       }
     },
@@ -574,8 +574,8 @@
       "registry_name": "cocain",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/CocainItem.java",
-          "src/main/resources/assets/beyondmc/models/item/cocain.json"
+          "src/main/resources/assets/beyondmc/models/item/cocain.json",
+          "src/main/java/net/mcreator/beyondmc/item/CocainItem.java"
         ]
       }
     },
@@ -602,11 +602,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/beyondmc/models/item/cocainblock.json",
+          "src/main/resources/assets/beyondmc/models/block/cocainblock_top.json",
+          "src/main/resources/assets/beyondmc/models/block/cocainblock_open.json",
           "src/main/resources/assets/beyondmc/blockstates/cocainblock.json",
           "src/main/java/net/mcreator/beyondmc/block/CocainblockBlock.java",
-          "src/main/resources/assets/beyondmc/models/block/cocainblock.json",
-          "src/main/resources/assets/beyondmc/models/block/cocainblock_top.json",
-          "src/main/resources/assets/beyondmc/models/block/cocainblock_open.json"
+          "src/main/resources/assets/beyondmc/models/block/cocainblock.json"
         ]
       }
     },
@@ -672,12 +672,12 @@
       "registry_name": "methylamineore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/methylamineore.json",
-          "src/main/resources/data/beyondmc/forge/biome_modifier/methylamineore_biome_modifier.json",
+          "src/main/java/net/mcreator/beyondmc/block/MethylamineoreBlock.java",
           "src/main/resources/assets/beyondmc/blockstates/methylamineore.json",
-          "src/main/resources/assets/beyondmc/models/block/methylamineore.json",
           "src/main/java/net/mcreator/beyondmc/world/features/ores/MethylamineoreFeature.java",
-          "src/main/java/net/mcreator/beyondmc/block/MethylamineoreBlock.java"
+          "src/main/resources/assets/beyondmc/models/block/methylamineore.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/methylamineore_biome_modifier.json",
+          "src/main/resources/assets/beyondmc/models/item/methylamineore.json"
         ]
       }
     },
@@ -690,8 +690,8 @@
       "registry_name": "distilledmethblock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/block/DistilledmethblockBlock.java",
           "src/main/resources/assets/beyondmc/models/item/distilledmethblock.json",
+          "src/main/java/net/mcreator/beyondmc/block/DistilledmethblockBlock.java",
           "src/main/resources/assets/beyondmc/blockstates/distilledmethblock.json",
           "src/main/resources/assets/beyondmc/models/block/distilledmethblock.json"
         ]
@@ -706,8 +706,8 @@
       "registry_name": "hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/HammerItem.java",
-          "src/main/resources/assets/beyondmc/models/item/hammer.json"
+          "src/main/resources/assets/beyondmc/models/item/hammer.json",
+          "src/main/java/net/mcreator/beyondmc/item/HammerItem.java"
         ]
       }
     },
@@ -733,12 +733,12 @@
       "registry_name": "methglass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/block/methglass_full.json",
-          "src/main/resources/assets/beyondmc/models/block/methglass.json",
-          "src/main/java/net/mcreator/beyondmc/block/MethglassBlock.java",
           "src/main/resources/assets/beyondmc/blockstates/methglass.json",
           "src/main/resources/assets/beyondmc/models/item/methglass.json",
-          "src/main/resources/assets/beyondmc/models/block/methglass_top.json"
+          "src/main/resources/assets/beyondmc/models/block/methglass_full.json",
+          "src/main/resources/assets/beyondmc/models/block/methglass.json",
+          "src/main/resources/assets/beyondmc/models/block/methglass_top.json",
+          "src/main/java/net/mcreator/beyondmc/block/MethglassBlock.java"
         ]
       }
     },
@@ -764,8 +764,8 @@
       "registry_name": "meth",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/meth.json",
-          "src/main/java/net/mcreator/beyondmc/item/MethItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/MethItem.java",
+          "src/main/resources/assets/beyondmc/models/item/meth.json"
         ]
       }
     },
@@ -1183,8 +1183,8 @@
       "registry_name": "needle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/needle.json",
-          "src/main/java/net/mcreator/beyondmc/item/NeedleItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/NeedleItem.java",
+          "src/main/resources/assets/beyondmc/models/item/needle.json"
         ]
       }
     },
@@ -1232,8 +1232,8 @@
       "registry_name": "heroinneedle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/HeroinneedleItem.java",
-          "src/main/resources/assets/beyondmc/models/item/heroinneedle.json"
+          "src/main/resources/assets/beyondmc/models/item/heroinneedle.json",
+          "src/main/java/net/mcreator/beyondmc/item/HeroinneedleItem.java"
         ]
       }
     },
@@ -1246,10 +1246,10 @@
       "registry_name": "space",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/block/space.json",
+          "src/main/java/net/mcreator/beyondmc/block/SpaceBlock.java",
           "src/main/resources/assets/beyondmc/models/item/space.json",
-          "src/main/resources/assets/beyondmc/blockstates/space.json",
-          "src/main/java/net/mcreator/beyondmc/block/SpaceBlock.java"
+          "src/main/resources/assets/beyondmc/models/block/space.json",
+          "src/main/resources/assets/beyondmc/blockstates/space.json"
         ]
       }
     },
@@ -1392,8 +1392,8 @@
       "registry_name": "steroids",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/SteroidsItem.java",
-          "src/main/resources/assets/beyondmc/models/item/steroids.json"
+          "src/main/resources/assets/beyondmc/models/item/steroids.json",
+          "src/main/java/net/mcreator/beyondmc/item/SteroidsItem.java"
         ]
       }
     },
@@ -1406,8 +1406,8 @@
       "registry_name": "cup",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/CupItem.java",
-          "src/main/resources/assets/beyondmc/models/item/cup.json"
+          "src/main/resources/assets/beyondmc/models/item/cup.json",
+          "src/main/java/net/mcreator/beyondmc/item/CupItem.java"
         ]
       }
     },
@@ -1420,8 +1420,8 @@
       "registry_name": "lean",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/lean.json",
-          "src/main/java/net/mcreator/beyondmc/item/LeanItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/LeanItem.java",
+          "src/main/resources/assets/beyondmc/models/item/lean.json"
         ]
       }
     },
@@ -1447,8 +1447,8 @@
       "registry_name": "steroidcapsule",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/steroidcapsule.json",
-          "src/main/java/net/mcreator/beyondmc/item/SteroidcapsuleItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/SteroidcapsuleItem.java",
+          "src/main/resources/assets/beyondmc/models/item/steroidcapsule.json"
         ]
       }
     },
@@ -1585,10 +1585,10 @@
       "registry_name": "suspiciousplanks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/block/SuspiciousplanksBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/suspiciousplanks.json",
           "src/main/resources/assets/beyondmc/models/item/suspiciousplanks.json",
           "src/main/resources/assets/beyondmc/models/block/suspiciousplanks.json",
-          "src/main/resources/assets/beyondmc/blockstates/suspiciousplanks.json"
+          "src/main/java/net/mcreator/beyondmc/block/SuspiciousplanksBlock.java"
         ]
       }
     },
@@ -1668,8 +1668,8 @@
       "registry_name": "bettercallsaul",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/bettercallsaul.json",
-          "src/main/java/net/mcreator/beyondmc/item/BettercallsaulItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/BettercallsaulItem.java",
+          "src/main/resources/assets/beyondmc/models/item/bettercallsaul.json"
         ]
       }
     },
@@ -1682,8 +1682,8 @@
       "registry_name": "prismarinecolossus",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/prismarinecolossus.json",
-          "src/main/java/net/mcreator/beyondmc/item/PrismarinecolossusItem.java"
+          "src/main/java/net/mcreator/beyondmc/item/PrismarinecolossusItem.java",
+          "src/main/resources/assets/beyondmc/models/item/prismarinecolossus.json"
         ]
       }
     },
@@ -1710,12 +1710,12 @@
       "registry_name": "silverore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beyondmc/models/block/silverore.json",
           "src/main/java/net/mcreator/beyondmc/block/SilveroreBlock.java",
-          "src/main/resources/assets/beyondmc/models/item/silverore.json",
-          "src/main/resources/data/beyondmc/forge/biome_modifier/silverore_biome_modifier.json",
-          "src/main/resources/assets/beyondmc/blockstates/silverore.json",
           "src/main/java/net/mcreator/beyondmc/world/features/ores/SilveroreFeature.java",
-          "src/main/resources/assets/beyondmc/models/block/silverore.json"
+          "src/main/resources/assets/beyondmc/blockstates/silverore.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/silverore_biome_modifier.json",
+          "src/main/resources/assets/beyondmc/models/item/silverore.json"
         ]
       }
     },
@@ -1854,10 +1854,10 @@
       "registry_name": "ironbricks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/block/IronbricksBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/ironbricks.json",
           "src/main/resources/assets/beyondmc/blockstates/ironbricks.json",
           "src/main/resources/assets/beyondmc/models/block/ironbricks.json",
-          "src/main/resources/assets/beyondmc/models/item/ironbricks.json"
+          "src/main/java/net/mcreator/beyondmc/block/IronbricksBlock.java"
         ]
       }
     },
@@ -1883,9 +1883,9 @@
       "registry_name": "silverbricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/silverbricks.json",
-          "src/main/java/net/mcreator/beyondmc/block/SilverbricksBlock.java",
           "src/main/resources/assets/beyondmc/models/block/silverbricks.json",
+          "src/main/java/net/mcreator/beyondmc/block/SilverbricksBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/silverbricks.json",
           "src/main/resources/assets/beyondmc/blockstates/silverbricks.json"
         ]
       }
@@ -1904,22 +1904,6 @@
       }
     },
     {
-      "name": "Redredstonelampoff",
-      "type": "block",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redredstonelampoff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beyondmc/block/RedredstonelampoffBlock.java",
-          "src/main/resources/assets/beyondmc/models/block/redredstonelampoff.json",
-          "src/main/resources/assets/beyondmc/models/item/redredstonelampoff.json",
-          "src/main/resources/assets/beyondmc/blockstates/redredstonelampoff.json"
-        ]
-      }
-    },
-    {
       "name": "Redstonelampon",
       "type": "block",
       "sortid": 97,
@@ -1928,10 +1912,10 @@
       "registry_name": "redstonelampon",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beyondmc/models/block/redstonelampon.json",
           "src/main/resources/assets/beyondmc/blockstates/redstonelampon.json",
           "src/main/java/net/mcreator/beyondmc/block/RedstonelamponBlock.java",
-          "src/main/resources/assets/beyondmc/models/item/redstonelampon.json",
-          "src/main/resources/assets/beyondmc/models/block/redstonelampon.json"
+          "src/main/resources/assets/beyondmc/models/item/redstonelampon.json"
         ]
       }
     },
@@ -1945,37 +1929,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampoffRedstoneOnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RedredstonelampoffRedstoneOff",
-      "type": "procedure",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redredstonelampoff_redstone_off",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampoffRedstoneOffProcedure.java"
         ],
         "dependencies": [
           {
@@ -2246,10 +2199,10 @@
       "registry_name": "coke_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/coke_1.json",
           "src/main/java/net/mcreator/beyondmc/block/Coke1Block.java",
-          "src/main/resources/assets/beyondmc/blockstates/coke_1.json",
-          "src/main/resources/assets/beyondmc/models/block/coke_1.json"
+          "src/main/resources/assets/beyondmc/models/block/coke_1.json",
+          "src/main/resources/assets/beyondmc/models/item/coke_1.json",
+          "src/main/resources/assets/beyondmc/blockstates/coke_1.json"
         ]
       }
     },
@@ -2262,9 +2215,9 @@
       "registry_name": "coke_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beyondmc/models/item/coke_2.json",
           "src/main/resources/assets/beyondmc/blockstates/coke_2.json",
           "src/main/java/net/mcreator/beyondmc/block/Coke2Block.java",
-          "src/main/resources/assets/beyondmc/models/item/coke_2.json",
           "src/main/resources/assets/beyondmc/models/block/coke_2.json"
         ]
       }
@@ -2278,10 +2231,10 @@
       "registry_name": "coke_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/coke_3.json",
           "src/main/resources/assets/beyondmc/blockstates/coke_3.json",
-          "src/main/resources/assets/beyondmc/models/block/coke_3.json",
-          "src/main/java/net/mcreator/beyondmc/block/Coke3Block.java"
+          "src/main/java/net/mcreator/beyondmc/block/Coke3Block.java",
+          "src/main/resources/assets/beyondmc/models/item/coke_3.json",
+          "src/main/resources/assets/beyondmc/models/block/coke_3.json"
         ]
       }
     },
@@ -2294,8 +2247,8 @@
       "registry_name": "islandheisttheme_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/item/islandheisttheme_1.json",
-          "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme1Item.java"
+          "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme1Item.java",
+          "src/main/resources/assets/beyondmc/models/item/islandheisttheme_1.json"
         ]
       }
     },
@@ -2308,8 +2261,102 @@
       "registry_name": "islandheisttheme_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme2Item.java",
-          "src/main/resources/assets/beyondmc/models/item/islandheisttheme_2.json"
+          "src/main/resources/assets/beyondmc/models/item/islandheisttheme_2.json",
+          "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Redredstonelamp",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/RedredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/redredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/redredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Blueredstonelamp",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/blueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "RedredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -2504,6 +2551,7 @@
   "language_map": {
     "en_us": {
       "item.beyondmc.stayoutofmyterritory": "Stay out of my territory",
+      "block.beyondmc.redredstonelamp": "Redredstonelamp",
       "block.beyondmc.weed_1": "Weed 1",
       "block.beyondmc.weed_0": "Weed 0",
       "item.beyondmc.heroin": "Heroin",
@@ -2560,6 +2608,7 @@
       "subtitles.prismarinesoldiers": "",
       "item.beyondmc.suspiciouspowder": "Suspicious powder",
       "item.beyondmc.heroinneedle": "Heroinneedle",
+      "block.beyondmc.blueredstonelamp": "Redredstonelamp",
       "block.beyondmc.suspiciousleaves": "Suspicious leaves",
       "item.beyondmc.bettercallsaul": "Better call saul",
       "item.beyondmc.stayoutofmyterritory.desc": "DLZ",
@@ -2579,7 +2628,6 @@
       "item.beyondmc.hammer": "Hammer",
       "entity.beyondmc.gremlin": "Gremlin",
       "item.beyondmc.needle": "Needle",
-      "block.beyondmc.redredstonelampoff": "Red redstone lamp",
       "subtitles.amongus_passive": "",
       "effect.beyondmc.rage": "Rage",
       "subtitles.islandheist2": "",

@@ -1,5 +1,5 @@
 {
-  "parent": "beyondmc:block/redredstonelampoff",
+  "parent": "beyondmc:block/blueredstonelamp",
   "display": {
     "thirdperson": {
       "rotation": [
