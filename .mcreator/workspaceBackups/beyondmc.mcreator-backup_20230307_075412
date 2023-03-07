@@ -2359,6 +2359,84 @@
           }
         ]
       }
+    },
+    {
+      "name": "Blueredstonelampon",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/blueredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2563,8 +2641,8 @@
       "block.beyondmc.silverore": "Silverore",
       "block.beyondmc.space": "Space",
       "item.beyondmc.prismarinegauntlet": "Prismarine gauntlet",
-      "item.beyondmc.prismarinecolossus": "Prismarine colossus",
       "entity.beyondmc.amongus": "Amongus",
+      "item.beyondmc.prismarinecolossus": "Prismarine colossus",
       "block.beyondmc.coke_0": "Coke 0",
       "effect.beyondmc.offtheperc": "Perc",
       "item.beyondmc.essence": "Essence",
@@ -2582,13 +2660,13 @@
       "block.beyondmc.coke_2": "Coke 2",
       "item.beyondmc.islandheisttheme_1": "Island heist theme 1",
       "item.beyondmc.gremlin_spawn_egg": "Gremlin Spawn Egg",
-      "item.beyondmc.islandheisttheme_2": "Island heist theme 2",
       "subtitles.passivegremlin": "",
+      "item.beyondmc.islandheisttheme_2": "Island heist theme 2",
       "item.beyondmc.cocain": "Cocain",
       "item.beyondmc.silveringot": "Silveringot",
-      "item.beyondmc.weed": "Weed",
-      "subtitles.breakingbadintro": "",
       "subtitles.amongus_attack": "",
+      "subtitles.breakingbadintro": "",
+      "item.beyondmc.weed": "Weed",
       "item.beyondmc.homedepot.desc": "Your dad\u0027s boss music",
       "effect.beyondmc.leaning": "Leaning",
       "block.beyondmc.methglass": "Meth glass",
@@ -2623,6 +2701,7 @@
       "subtitles.ankles": "",
       "item.beyondmc.suspiciousseeds": "Suspicious seeds",
       "subtitles.highest_in_the_room": "",
+      "block.beyondmc.blueredstonelampon": "Blueredstonelampon",
       "subtitles.gucci_gang": "",
       "item.beyondmc.islandheisttheme_1.desc": "Island heist theme 1",
       "item.beyondmc.hammer": "Hammer",

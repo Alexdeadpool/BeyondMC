@@ -1904,22 +1904,6 @@
       }
     },
     {
-      "name": "Redredstonelampoff",
-      "type": "block",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redredstonelamp",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beyondmc/block/RedredstonelampoffBlock.java",
-          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
-          "src/main/resources/assets/beyondmc/blockstates/redredstonelamp.json",
-          "src/main/resources/assets/beyondmc/models/item/redredstonelamp.json"
-        ]
-      }
-    },
-    {
       "name": "Redstonelampon",
       "type": "block",
       "sortid": 97,
@@ -1945,37 +1929,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampoffRedstoneOnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RedredstonelampoffRedstoneOff",
-      "type": "procedure",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "redredstonelampoff_redstone_off",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampoffRedstoneOffProcedure.java"
         ],
         "dependencies": [
           {
@@ -2312,6 +2265,178 @@
           "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme2Item.java"
         ]
       }
+    },
+    {
+      "name": "Redredstonelamp",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/RedredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/redredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/redredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Blueredstonelamp",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/blueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "RedredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blueredstonelampon",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/blueredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2504,7 +2629,7 @@
   "language_map": {
     "en_us": {
       "item.beyondmc.stayoutofmyterritory": "Stay out of my territory",
-      "block.beyondmc.redredstonelamp": "Red redstone lamp",
+      "block.beyondmc.redredstonelamp": "Redredstonelamp",
       "block.beyondmc.weed_1": "Weed 1",
       "block.beyondmc.weed_0": "Weed 0",
       "item.beyondmc.heroin": "Heroin",
@@ -2561,6 +2686,7 @@
       "subtitles.prismarinesoldiers": "",
       "item.beyondmc.suspiciouspowder": "Suspicious powder",
       "item.beyondmc.heroinneedle": "Heroinneedle",
+      "block.beyondmc.blueredstonelamp": "Redredstonelamp",
       "block.beyondmc.suspiciousleaves": "Suspicious leaves",
       "item.beyondmc.bettercallsaul": "Better call saul",
       "item.beyondmc.stayoutofmyterritory.desc": "DLZ",
@@ -2575,6 +2701,7 @@
       "subtitles.ankles": "",
       "item.beyondmc.suspiciousseeds": "Suspicious seeds",
       "subtitles.highest_in_the_room": "",
+      "block.beyondmc.blueredstonelampon": "Blueredstonelampon",
       "subtitles.gucci_gang": "",
       "item.beyondmc.islandheisttheme_1.desc": "Island heist theme 1",
       "item.beyondmc.hammer": "Hammer",
