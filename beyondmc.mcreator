@@ -2275,8 +2275,8 @@
       "registry_name": "redredstonelamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
           "src/main/java/net/mcreator/beyondmc/block/RedredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
           "src/main/resources/assets/beyondmc/blockstates/redredstonelamp.json",
           "src/main/resources/assets/beyondmc/models/item/redredstonelamp.json"
         ]
@@ -2291,10 +2291,10 @@
       "registry_name": "blueredstonelamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
           "src/main/resources/assets/beyondmc/models/item/blueredstonelamp.json",
-          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java",
-          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json"
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java"
         ]
       }
     },
@@ -2369,10 +2369,10 @@
       "registry_name": "blueredstonelampon",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json",
           "src/main/resources/assets/beyondmc/models/item/blueredstonelampon.json",
-          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java",
           "src/main/resources/assets/beyondmc/models/block/blueredstonelampon.json",
-          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json"
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java"
         ]
       }
     },
@@ -2417,6 +2417,194 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pinkredstonelamp",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/PinkredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/pinkredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/pinkredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/pinkredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Pinkredstonelampon",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/pinkredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/pinkredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/PinkredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/pinkredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PinkredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PinkredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PinkredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightblueredstonelamp",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/lightblueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/LightblueredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/lightblueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/lightblueredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightblueredstonelampon",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/lightblueredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/lightblueredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/LightblueredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/lightblueredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "LightblueredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LightblueredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightblueredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LightblueredstonelampRedstoneOnProcedure.java"
         ],
         "dependencies": [
           {
@@ -2647,6 +2835,7 @@
       "effect.beyondmc.offtheperc": "Perc",
       "item.beyondmc.essence": "Essence",
       "block.beyondmc.distilledmethblock": "Distilled meth block",
+      "block.beyondmc.lightblueredstonelamp": "Pinkredstonelamp",
       "subtitles.gauntletsound": "",
       "item.beyondmc.meth": "Meth",
       "subtitles.gremlinfootsteps": "",
@@ -2676,6 +2865,7 @@
       "effect.beyondmc.roids": "Roids",
       "subtitles.amongus_death": "",
       "subtitles.gremlindeath": "",
+      "block.beyondmc.pinkredstonelampon": "Blueredstonelampon",
       "item.beyondmc.susknife": "Susknife",
       "block.beyondmc.suspiciousplanks": "Suspiciousplanks",
       "subtitles.gauntlet2": "",
@@ -2706,6 +2896,7 @@
       "item.beyondmc.islandheisttheme_1.desc": "Island heist theme 1",
       "item.beyondmc.hammer": "Hammer",
       "entity.beyondmc.gremlin": "Gremlin",
+      "block.beyondmc.pinkredstonelamp": "Pinkredstonelamp",
       "item.beyondmc.needle": "Needle",
       "subtitles.amongus_passive": "",
       "effect.beyondmc.rage": "Rage",
@@ -2720,6 +2911,7 @@
       "subtitles.pistolsound": "",
       "subtitles.homedeopt": "",
       "item.beyondmc.steroidcapsule": "Steroid capsule",
+      "block.beyondmc.lightblueredstonelampon": "Blueredstonelampon",
       "subtitles.amongwalk": "",
       "block.beyondmc.sky": "Sky",
       "item.beyondmc.lean": "Lean",

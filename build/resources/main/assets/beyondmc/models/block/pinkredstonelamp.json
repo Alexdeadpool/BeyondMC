@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondmc:blocks/pinkredstone_lamp",
+    "up": "beyondmc:blocks/pinkredstone_lamp",
+    "north": "beyondmc:blocks/pinkredstone_lamp",
+    "east": "beyondmc:blocks/pinkredstone_lamp",
+    "south": "beyondmc:blocks/pinkredstone_lamp",
+    "west": "beyondmc:blocks/pinkredstone_lamp",
+    "particle": "beyondmc:blocks/pinkredstone_lamp"
+  },
+  "render_type": "solid"
+}
