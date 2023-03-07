@@ -22,7 +22,6 @@ import net.mcreator.beyondmc.block.SkyBlock;
 import net.mcreator.beyondmc.block.SilveroreBlock;
 import net.mcreator.beyondmc.block.SilverbricksBlock;
 import net.mcreator.beyondmc.block.RedstonelamponBlock;
-import net.mcreator.beyondmc.block.RedredstonelampoffBlock;
 import net.mcreator.beyondmc.block.MethylamineoreBlock;
 import net.mcreator.beyondmc.block.MethglassBlock;
 import net.mcreator.beyondmc.block.IronbricksBlock;

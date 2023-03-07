@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Redredstonelampoff"
+      "value": "CUSTOM:Redredstonelamp"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "GLASS"
+      "value": "REDSTONE_LIGHT"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -117,11 +117,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRedstoneOn": {
-      "name": "RedredstonelampoffRedstoneOn"
-    },
     "onRedstoneOff": {
-      "name": "RedredstonelampoffRedstoneOff"
+      "name": "RedstonelamponRedstoneOff"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
