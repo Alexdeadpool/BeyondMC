@@ -2275,8 +2275,8 @@
       "registry_name": "redredstonelamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
           "src/main/java/net/mcreator/beyondmc/block/RedredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
           "src/main/resources/assets/beyondmc/blockstates/redredstonelamp.json",
           "src/main/resources/assets/beyondmc/models/item/redredstonelamp.json"
         ]
@@ -2291,10 +2291,10 @@
       "registry_name": "blueredstonelamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
           "src/main/resources/assets/beyondmc/models/item/blueredstonelamp.json",
-          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java",
-          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json"
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java"
         ]
       }
     },
@@ -2369,10 +2369,10 @@
       "registry_name": "blueredstonelampon",
       "metadata": {
         "files": [
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json",
           "src/main/resources/assets/beyondmc/models/item/blueredstonelampon.json",
-          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java",
           "src/main/resources/assets/beyondmc/models/block/blueredstonelampon.json",
-          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json"
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java"
         ]
       }
     },
