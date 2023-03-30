@@ -13,6 +13,8 @@
  */
 package net.mcreator.beyondmc;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -67,6 +69,7 @@ public class BeyondmcMod {
 
 		BeyondmcModParticleTypes.REGISTRY.register(bus);
 
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

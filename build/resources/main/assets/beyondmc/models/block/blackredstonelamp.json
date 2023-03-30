@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondmc:blocks/blackredstone_lamp",
+    "up": "beyondmc:blocks/blackredstone_lamp",
+    "north": "beyondmc:blocks/blackredstone_lamp",
+    "east": "beyondmc:blocks/blackredstone_lamp",
+    "south": "beyondmc:blocks/blackredstone_lamp",
+    "west": "beyondmc:blocks/blackredstone_lamp",
+    "particle": "beyondmc:blocks/blackredstone_lamp"
+  },
+  "render_type": "solid"
+}

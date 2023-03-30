@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "beyondmc:blocks/redstone_lamp_on",
-    "particle": "beyondmc:blocks/redstone_lamp_on"
+    "all": "beyondmc:blocks/redredstone_lamp_on",
+    "particle": "beyondmc:blocks/redredstone_lamp_on"
   },
   "render_type": "solid"
 }

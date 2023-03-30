@@ -48,7 +48,6 @@ import net.mcreator.beyondmc.BeyondmcMod;
 public class BeyondmcModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, BeyondmcMod.MODID);
 	public static final RegistryObject<Item> AMONGUS_SPAWN_EGG = REGISTRY.register("amongus_spawn_egg", () -> new ForgeSpawnEggItem(BeyondmcModEntities.AMONGUS, -3407872, -16724788, new Item.Properties().tab(BeyondmcModTabs.TAB_BEYOND)));
-	public static final RegistryObject<Item> GREMLIN_SPAWN_EGG = REGISTRY.register("gremlin_spawn_egg", () -> new ForgeSpawnEggItem(BeyondmcModEntities.GREMLIN, -16711853, -9752052, new Item.Properties().tab(BeyondmcModTabs.TAB_BEYOND)));
 	public static final RegistryObject<Item> PRISMARINEGAUNTLET = REGISTRY.register("prismarinegauntlet", () -> new PrismarinegauntletItem());
 	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
 	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
@@ -102,11 +101,37 @@ public class BeyondmcModItems {
 	public static final RegistryObject<Item> ISLANDHEISTTHEME_2 = REGISTRY.register("islandheisttheme_2", () -> new Islandheisttheme2Item());
 	public static final RegistryObject<Item> REDREDSTONELAMP = block(BeyondmcModBlocks.REDREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
 	public static final RegistryObject<Item> BLUEREDSTONELAMP = block(BeyondmcModBlocks.BLUEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
-	public static final RegistryObject<Item> BLUEREDSTONELAMPON = block(BeyondmcModBlocks.BLUEREDSTONELAMPON, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> BLUEREDSTONELAMPON = block(BeyondmcModBlocks.BLUEREDSTONELAMPON, null);
 	public static final RegistryObject<Item> PINKREDSTONELAMP = block(BeyondmcModBlocks.PINKREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
-	public static final RegistryObject<Item> PINKREDSTONELAMPON = block(BeyondmcModBlocks.PINKREDSTONELAMPON, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> PINKREDSTONELAMPON = block(BeyondmcModBlocks.PINKREDSTONELAMPON, null);
 	public static final RegistryObject<Item> LIGHTBLUEREDSTONELAMP = block(BeyondmcModBlocks.LIGHTBLUEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
-	public static final RegistryObject<Item> LIGHTBLUEREDSTONELAMPON = block(BeyondmcModBlocks.LIGHTBLUEREDSTONELAMPON, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> LIGHTBLUEREDSTONELAMPON = block(BeyondmcModBlocks.LIGHTBLUEREDSTONELAMPON, null);
+	public static final RegistryObject<Item> PURPLEREDSTONELAMP = block(BeyondmcModBlocks.PURPLEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> PURPLEREDSTONELAMPON = block(BeyondmcModBlocks.PURPLEREDSTONELAMPON, null);
+	public static final RegistryObject<Item> GREENREDSTONELAMP = block(BeyondmcModBlocks.GREENREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> GREENREDSTONELAMPON = block(BeyondmcModBlocks.GREENREDSTONELAMPON, null);
+	public static final RegistryObject<Item> YELLOWREDSTONELAMP = block(BeyondmcModBlocks.YELLOWREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> YELLOWREDSTONELAMPON = block(BeyondmcModBlocks.YELLOWREDSTONELAMPON, null);
+	public static final RegistryObject<Item> MAGENTAREDSTONELAMP = block(BeyondmcModBlocks.MAGENTAREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> MAGENTAREDSTONELAMPON = block(BeyondmcModBlocks.MAGENTAREDSTONELAMPON, null);
+	public static final RegistryObject<Item> LIMEREDSTONELAMP = block(BeyondmcModBlocks.LIMEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> LIMEREDSTONELAMPON = block(BeyondmcModBlocks.LIMEREDSTONELAMPON, null);
+	public static final RegistryObject<Item> ORANGEREDSTONELAMP = block(BeyondmcModBlocks.ORANGEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> ORANGEREDSTONELAMPON = block(BeyondmcModBlocks.ORANGEREDSTONELAMPON, null);
+	public static final RegistryObject<Item> GREYREDSTONELAMP = block(BeyondmcModBlocks.GREYREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> GREYREDSTONELAMPON = block(BeyondmcModBlocks.GREYREDSTONELAMPON, null);
+	public static final RegistryObject<Item> CYANREDSTONELAMP = block(BeyondmcModBlocks.CYANREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> CYANREDSTONELAMPON = block(BeyondmcModBlocks.CYANREDSTONELAMPON, null);
+	public static final RegistryObject<Item> WHITEREDSTONELAMP = block(BeyondmcModBlocks.WHITEREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> WHITEREDSTONELAMPON = block(BeyondmcModBlocks.WHITEREDSTONELAMPON, null);
+	public static final RegistryObject<Item> LIGHTGREYREDSTONELAMP = block(BeyondmcModBlocks.LIGHTGREYREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> LIGHTGREYREDSTONELAMPON = block(BeyondmcModBlocks.LIGHTGREYREDSTONELAMPON, null);
+	public static final RegistryObject<Item> BLACKREDSTONELAMP = block(BeyondmcModBlocks.BLACKREDSTONELAMP, BeyondmcModTabs.TAB_BEYOND);
+	public static final RegistryObject<Item> BLACKREDSTONELAMPON = block(BeyondmcModBlocks.BLACKREDSTONELAMPON, null);
+	public static final RegistryObject<Item> ALEXDEADPOOL_SPAWN_EGG = REGISTRY.register("alexdeadpool_spawn_egg",
+			() -> new ForgeSpawnEggItem(BeyondmcModEntities.ALEXDEADPOOL, -16711936, -16724941, new Item.Properties().tab(BeyondmcModTabs.TAB_BEYOND)));
+	public static final RegistryObject<Item> GREMLIN_SPAWN_EGG = REGISTRY.register("gremlin_spawn_egg", () -> new ForgeSpawnEggItem(BeyondmcModEntities.GREMLIN, -13369600, -3355648, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> REDCOAT_SPAWN_EGG = REGISTRY.register("redcoat_spawn_egg", () -> new ForgeSpawnEggItem(BeyondmcModEntities.REDCOAT, -65536, -3355444, new Item.Properties().tab(BeyondmcModTabs.TAB_BEYOND)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

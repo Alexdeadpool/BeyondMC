@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "redstone_lamp_on",
+    "texture": "redredstone_lamp_on",
     "textureTop": "redstone_lamp_on",
     "textureLeft": "redstone_lamp_on",
     "textureFront": "redstone_lamp_on",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Redstonelampon",
+    "name": "Red redstone lamp on",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

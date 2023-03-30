@@ -16,9 +16,11 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.beyondmc.entity.RedcoatEntity;
 import net.mcreator.beyondmc.entity.PistolEntity;
 import net.mcreator.beyondmc.entity.GremlinEntity;
 import net.mcreator.beyondmc.entity.AmongusEntity;
+import net.mcreator.beyondmc.entity.AlexdeadpoolEntity;
 import net.mcreator.beyondmc.BeyondmcMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -28,12 +30,20 @@ public class BeyondmcModEntities {
 			EntityType.Builder.<AmongusEntity>of(AmongusEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AmongusEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PistolEntity>> PISTOL = register("projectile_pistol",
+			EntityType.Builder.<PistolEntity>of(PistolEntity::new, MobCategory.MISC).setCustomClientFactory(PistolEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AlexdeadpoolEntity>> ALEXDEADPOOL = register("alexdeadpool",
+			EntityType.Builder.<AlexdeadpoolEntity>of(AlexdeadpoolEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AlexdeadpoolEntity::new)
+
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<GremlinEntity>> GREMLIN = register("gremlin",
 			EntityType.Builder.<GremlinEntity>of(GremlinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GremlinEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<PistolEntity>> PISTOL = register("projectile_pistol",
-			EntityType.Builder.<PistolEntity>of(PistolEntity::new, MobCategory.MISC).setCustomClientFactory(PistolEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RedcoatEntity>> REDCOAT = register("redcoat",
+			EntityType.Builder.<RedcoatEntity>of(RedcoatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RedcoatEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -43,13 +53,17 @@ public class BeyondmcModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			AmongusEntity.init();
+			AlexdeadpoolEntity.init();
 			GremlinEntity.init();
+			RedcoatEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(AMONGUS.get(), AmongusEntity.createAttributes().build());
+		event.put(ALEXDEADPOOL.get(), AlexdeadpoolEntity.createAttributes().build());
 		event.put(GREMLIN.get(), GremlinEntity.createAttributes().build());
+		event.put(REDCOAT.get(), RedcoatEntity.createAttributes().build());
 	}
 }

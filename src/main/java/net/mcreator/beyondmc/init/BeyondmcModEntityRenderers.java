@@ -11,15 +11,19 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.beyondmc.client.renderer.RedcoatRenderer;
 import net.mcreator.beyondmc.client.renderer.GremlinRenderer;
 import net.mcreator.beyondmc.client.renderer.AmongusRenderer;
+import net.mcreator.beyondmc.client.renderer.AlexdeadpoolRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class BeyondmcModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(BeyondmcModEntities.AMONGUS.get(), AmongusRenderer::new);
-		event.registerEntityRenderer(BeyondmcModEntities.GREMLIN.get(), GremlinRenderer::new);
 		event.registerEntityRenderer(BeyondmcModEntities.PISTOL.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(BeyondmcModEntities.ALEXDEADPOOL.get(), AlexdeadpoolRenderer::new);
+		event.registerEntityRenderer(BeyondmcModEntities.GREMLIN.get(), GremlinRenderer::new);
+		event.registerEntityRenderer(BeyondmcModEntities.REDCOAT.get(), RedcoatRenderer::new);
 	}
 }

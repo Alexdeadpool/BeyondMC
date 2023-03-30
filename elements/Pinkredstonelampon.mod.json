@@ -40,11 +40,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Beyond"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Pinkredstonelamp"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

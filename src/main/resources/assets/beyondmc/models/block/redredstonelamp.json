@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "beyondmc:blocks/red_redstone_lamp_off",
-    "up": "beyondmc:blocks/red_redstone_lamp_off",
-    "north": "beyondmc:blocks/red_redstone_lamp_off",
-    "east": "beyondmc:blocks/red_redstone_lamp_off",
-    "south": "beyondmc:blocks/red_redstone_lamp_off",
-    "west": "beyondmc:blocks/red_redstone_lamp_off",
-    "particle": "beyondmc:blocks/red_redstone_lamp_off"
+    "down": "beyondmc:blocks/redredstonelamp",
+    "up": "beyondmc:blocks/redredstonelamp",
+    "north": "beyondmc:blocks/redredstonelamp",
+    "east": "beyondmc:blocks/redredstonelamp",
+    "south": "beyondmc:blocks/redredstonelamp",
+    "west": "beyondmc:blocks/redredstonelamp",
+    "particle": "beyondmc:blocks/redredstonelamp"
   },
   "render_type": "solid"
 }

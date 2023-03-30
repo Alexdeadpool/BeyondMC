@@ -23,4 +23,10 @@ Ongoing development. We do not endorse or condone the use of drugs, nor do we gl
 
 
 
+[[dependencies.beyondmc]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

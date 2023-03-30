@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondmc:blocks/orangeredstone_lamp_on",
+    "up": "beyondmc:blocks/orangeredstone_lamp_on",
+    "north": "beyondmc:blocks/orangeredstone_lamp_on",
+    "east": "beyondmc:blocks/orangeredstone_lamp_on",
+    "south": "beyondmc:blocks/orangeredstone_lamp_on",
+    "west": "beyondmc:blocks/orangeredstone_lamp_on",
+    "particle": "beyondmc:blocks/orangeredstone_lamp_on"
+  },
+  "render_type": "solid"
+}

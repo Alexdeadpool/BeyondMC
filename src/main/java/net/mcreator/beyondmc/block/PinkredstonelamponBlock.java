@@ -15,6 +15,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.beyondmc.procedures.PinkredstonelamponRedstoneOffProcedure;
+import net.mcreator.beyondmc.init.BeyondmcModBlocks;
 
 import java.util.List;
 import java.util.Collections;
@@ -34,7 +35,7 @@ public class PinkredstonelamponBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(BeyondmcModBlocks.PINKREDSTONELAMP.get()));
 	}
 
 	@Override

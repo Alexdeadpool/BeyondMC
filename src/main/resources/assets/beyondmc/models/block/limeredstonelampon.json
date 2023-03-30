@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondmc:blocks/limeredstone_lamp_on",
+    "up": "beyondmc:blocks/limeredstone_lamp_on",
+    "north": "beyondmc:blocks/limeredstone_lamp_on",
+    "east": "beyondmc:blocks/limeredstone_lamp_on",
+    "south": "beyondmc:blocks/limeredstone_lamp_on",
+    "west": "beyondmc:blocks/limeredstone_lamp_on",
+    "particle": "beyondmc:blocks/limeredstone_lamp_on"
+  },
+  "render_type": "solid"
+}
