@@ -10,9 +10,7 @@ credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://discord.gg/q9RCaCM2tQ"
 logoFile="logo.png"
 authors="Alexdeadpool"
-description='''
-Ongoing development. We do not endorse or condone the use of drugs, nor do we glorify the use of which in this mod.
-'''
+description="Ongoing development. We do not endorse or condone the use of drugs, nor do we glorify the use of which in this mod."
 
 [[dependencies.beyondmc]]
     modId="minecraft"

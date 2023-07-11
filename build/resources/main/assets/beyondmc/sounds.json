@@ -1,6 +1,5 @@
 {
   "amongus_attack": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:amongus_attack",
@@ -9,7 +8,6 @@
     ]
   },
   "amongus_death": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:amongus_death_-_copy",
@@ -18,7 +16,6 @@
     ]
   },
   "amongus_passive": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:amongus_passive_-_copy",
@@ -27,7 +24,6 @@
     ]
   },
   "amongwalk": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:amongwalk",
@@ -36,7 +32,6 @@
     ]
   },
   "ankles": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:ankles",
@@ -45,7 +40,6 @@
     ]
   },
   "gauntlet2": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "beyondmc:gauntlet2",
@@ -54,7 +48,6 @@
     ]
   },
   "gauntletsound": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "beyondmc:gauntletsound",
@@ -63,7 +56,6 @@
     ]
   },
   "gremlindeath": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:gremlindeath",
@@ -72,7 +64,6 @@
     ]
   },
   "gremlinfootsteps": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:gremlinfootsteps",
@@ -81,7 +72,6 @@
     ]
   },
   "gremlinouch": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:gremlinouch",
@@ -90,7 +80,6 @@
     ]
   },
   "homedeopt": {
-    "category": "record",
     "sounds": [
       {
         "name": "beyondmc:homedepot",
@@ -99,7 +88,6 @@
     ]
   },
   "passivegremlin": {
-    "category": "hostile",
     "sounds": [
       {
         "name": "beyondmc:passivegremlin",
@@ -108,7 +96,6 @@
     ]
   },
   "pistolsound": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "beyondmc:pistolsound",
@@ -117,7 +104,6 @@
     ]
   },
   "bettercallsaul": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:bettercallsaul",
@@ -126,7 +112,6 @@
     ]
   },
   "gucci_gang": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:gucci_gang",
@@ -135,7 +120,6 @@
     ]
   },
   "breakingbadintro": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:breakingbadintro_-_copy",
@@ -144,7 +128,6 @@
     ]
   },
   "higher": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:higher_-_copy",
@@ -153,7 +136,6 @@
     ]
   },
   "highest_in_the_room": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:highest_in_the_room_-_copy",
@@ -162,7 +144,6 @@
     ]
   },
   "stayoutofmyterritory": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:stayoutofmyterritory",
@@ -171,7 +152,6 @@
     ]
   },
   "prismarinecolossus": {
-    "category": "record",
     "sounds": [
       {
         "name": "beyondmc:prismarinecolossus",
@@ -180,7 +160,6 @@
     ]
   },
   "peismarinesoldiers": {
-    "category": "record",
     "sounds": [
       {
         "name": "beyondmc:prismarinesoldiers",
@@ -189,7 +168,6 @@
     ]
   },
   "islandheist1": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:huge_ret",
@@ -198,7 +176,6 @@
     ]
   },
   "islandheist2": {
-    "category": "music",
     "sounds": [
       {
         "name": "beyondmc:tgyhjv",

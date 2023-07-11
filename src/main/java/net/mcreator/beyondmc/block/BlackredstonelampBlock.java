@@ -21,7 +21,7 @@ import java.util.Collections;
 
 public class BlackredstonelampBlock extends Block {
 	public BlackredstonelampBlock() {
-		super(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 15));
+		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 15));
 	}
 
 	@Override

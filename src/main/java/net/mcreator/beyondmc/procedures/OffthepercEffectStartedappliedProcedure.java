@@ -12,8 +12,8 @@ public class OffthepercEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1000, 5, (false), (false)));
+		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1000, 5, false, false));
 		BeyondmcMod.queueServerWork(1000, () -> {
 			OffthepercEffectExpiresProcedure.execute(entity);
 		});

@@ -32,7 +32,7 @@ public class SusknifeItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 3, 1f, new Item.Properties().tab(BeyondmcModTabs.TAB_BEYOND));
 	}

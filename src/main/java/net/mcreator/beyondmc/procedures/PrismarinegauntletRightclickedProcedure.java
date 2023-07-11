@@ -19,7 +19,7 @@ public class PrismarinegauntletRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl0 && _lvl0.isDay()) {
 			(itemstack).setDamageValue(9);
 			entity.hurt(DamageSource.LIGHTNING_BOLT, 9);
 			if (world instanceof Level _level) {
@@ -36,7 +36,7 @@ public class PrismarinegauntletRightclickedProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.setDayTime(18000);
 			(new ItemStack(BeyondmcModItems.PRISMARINEGAUNTLET.get())).setDamageValue((int) 2.1);
-		} else if (!(world instanceof Level _lvl && _lvl.isDay())) {
+		} else if (!(world instanceof Level _lvl9 && _lvl9.isDay())) {
 			if (world instanceof ServerLevel _level)
 				_level.setDayTime(6000);
 			if (world instanceof Level _level) {

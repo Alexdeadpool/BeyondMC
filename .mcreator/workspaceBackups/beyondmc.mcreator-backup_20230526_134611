@@ -1,0 +1,4086 @@
+{
+  "mod_elements": [
+    {
+      "name": "Amongus",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/entity/AmongusEntity.java",
+          "src/main/java/net/mcreator/beyondmc/client/renderer/AmongusRenderer.java",
+          "src/main/resources/assets/beyondmc/models/item/amongus_spawn_egg.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/amongus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismarinegauntlet",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismarinegauntlet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/prismarinegauntlet.json",
+          "src/main/java/net/mcreator/beyondmc/item/PrismarinegauntletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Katana",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/KatanaItem.java",
+          "src/main/resources/assets/beyondmc/models/item/katana.json"
+        ]
+      }
+    },
+    {
+      "name": "Beyond",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/entity/PistolEntity.java",
+          "src/main/java/net/mcreator/beyondmc/item/PistolItem.java",
+          "src/main/resources/assets/beyondmc/models/item/pistol.json"
+        ]
+      }
+    },
+    {
+      "name": "Pistolrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistolrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/pistolrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Katanarecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katanarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/katanarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/core.json",
+          "src/main/resources/assets/beyondmc/models/block/core.json",
+          "src/main/resources/assets/beyondmc/models/item/core.json",
+          "src/main/java/net/mcreator/beyondmc/block/CoreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Susknife",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "susknife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/SusknifeItem.java",
+          "src/main/resources/assets/beyondmc/models/item/susknife.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismarinegauntletrecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismarinegauntletrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/prismarinegauntletrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Essence",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/essence.json",
+          "src/main/java/net/mcreator/beyondmc/item/EssenceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Homedepot",
+      "type": "musicdisc",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homedepot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/HomedepotItem.java",
+          "src/main/resources/assets/beyondmc/models/item/homedepot.json"
+        ]
+      }
+    },
+    {
+      "name": "Wardenkilled",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wardenkilled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/WardenkilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amonguskilled",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amonguskilled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/AmonguskilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gremlinkilled",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gremlinkilled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/GremlinkilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrismarinegauntletItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismarinegauntlet_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PrismarinegauntletItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrismarinegauntletRightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismarinegauntlet_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PrismarinegauntletRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weed0",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/Weed0Block.java",
+          "src/main/resources/assets/beyondmc/models/block/weed_0.json",
+          "src/main/resources/assets/beyondmc/models/item/weed_0.json",
+          "src/main/resources/assets/beyondmc/blockstates/weed_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Weed1",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/Weed1Block.java",
+          "src/main/resources/assets/beyondmc/blockstates/weed_1.json",
+          "src/main/resources/assets/beyondmc/models/block/weed_1.json",
+          "src/main/resources/assets/beyondmc/models/item/weed_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Weed2",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/weed_2.json",
+          "src/main/java/net/mcreator/beyondmc/block/Weed2Block.java",
+          "src/main/resources/assets/beyondmc/blockstates/weed_2.json",
+          "src/main/resources/assets/beyondmc/models/block/weed_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Weed3",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/weed_3.json",
+          "src/main/java/net/mcreator/beyondmc/block/Weed3Block.java",
+          "src/main/resources/assets/beyondmc/models/item/weed_3.json",
+          "src/main/resources/assets/beyondmc/blockstates/weed_3.json"
+        ]
+      }
+    },
+    {
+      "name": "SuspiciousseedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousseeds_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/SuspiciousseedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Suspiciousseeds",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousseeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/SuspiciousseedsItem.java",
+          "src/main/resources/assets/beyondmc/models/item/suspiciousseeds.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciousleaves",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousleaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/world/features/ores/SuspiciousleavesFeature.java",
+          "src/main/resources/assets/beyondmc/blockstates/suspiciousleaves.json",
+          "src/main/java/net/mcreator/beyondmc/block/SuspiciousleavesBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/suspiciousleaves.json",
+          "src/main/resources/assets/beyondmc/models/item/suspiciousleaves.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/suspiciousleaves_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciouspowder",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciouspowder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/SuspiciouspowderItem.java",
+          "src/main/resources/assets/beyondmc/models/item/suspiciouspowder.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciousleavestag",
+      "type": "tag",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousleavestag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/suspiciousleavestag.json"
+        ]
+      }
+    },
+    {
+      "name": "CocainPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocain_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/CocainPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Suspiciouslog",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciouslog",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/suspiciouslog.json",
+          "src/main/resources/assets/beyondmc/models/item/suspiciouslog.json",
+          "src/main/java/net/mcreator/beyondmc/block/SuspiciouslogBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/suspiciouslog.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspicioustree",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicioustree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/world/features/SuspicioustreeFeature.java",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/suspicioustree_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Cocain",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/cocain.json",
+          "src/main/java/net/mcreator/beyondmc/item/CocainItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cocainrecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocainrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/cocainrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cocainblock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocainblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/cocainblock.json",
+          "src/main/resources/assets/beyondmc/models/block/cocainblock_top.json",
+          "src/main/resources/assets/beyondmc/models/block/cocainblock_open.json",
+          "src/main/java/net/mcreator/beyondmc/block/CocainblockBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/cocainblock.json",
+          "src/main/resources/assets/beyondmc/blockstates/cocainblock.json"
+        ]
+      }
+    },
+    {
+      "name": "CocainRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocain_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/CocainRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weed",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/WeedItem.java",
+          "src/main/resources/assets/beyondmc/models/item/weed.json"
+        ]
+      }
+    },
+    {
+      "name": "Methylamineore",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methylamineore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/methylamineore.json",
+          "src/main/java/net/mcreator/beyondmc/block/MethylamineoreBlock.java",
+          "src/main/java/net/mcreator/beyondmc/world/features/ores/MethylamineoreFeature.java",
+          "src/main/resources/assets/beyondmc/models/block/methylamineore.json",
+          "src/main/resources/assets/beyondmc/blockstates/methylamineore.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/methylamineore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Distilledmethblock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distilledmethblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/distilledmethblock.json",
+          "src/main/resources/assets/beyondmc/models/block/distilledmethblock.json",
+          "src/main/java/net/mcreator/beyondmc/block/DistilledmethblockBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/distilledmethblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/hammer.json",
+          "src/main/java/net/mcreator/beyondmc/item/HammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hammerrecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/hammerrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Methglass",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methglass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/MethglassBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/methglass.json",
+          "src/main/resources/assets/beyondmc/models/block/methglass_full.json",
+          "src/main/resources/assets/beyondmc/blockstates/methglass.json",
+          "src/main/resources/assets/beyondmc/models/block/methglass_top.json",
+          "src/main/resources/assets/beyondmc/models/item/methglass.json"
+        ]
+      }
+    },
+    {
+      "name": "Methglassrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methglassrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/methglassrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Meth",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/MethItem.java",
+          "src/main/resources/assets/beyondmc/models/item/meth.json"
+        ]
+      }
+    },
+    {
+      "name": "Perc30",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perc_30",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/perc_30.json",
+          "src/main/java/net/mcreator/beyondmc/item/Perc30Item.java"
+        ]
+      }
+    },
+    {
+      "name": "RelaxationOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relaxation_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RelaxationOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RelaxationEffectExpires",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relaxation_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RelaxationEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RelaxationEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relaxation_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RelaxationEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Relaxation",
+      "type": "potioneffect",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relaxation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/potion/RelaxationMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Sky",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/sky.json",
+          "src/main/resources/assets/beyondmc/blockstates/sky.json",
+          "src/main/resources/assets/beyondmc/models/item/sky.json",
+          "src/main/java/net/mcreator/beyondmc/block/SkyBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "High",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/advancements/high.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciouslogtag",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciouslogtag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/suspiciouslogtag.json"
+        ]
+      }
+    },
+    {
+      "name": "Rage",
+      "type": "potioneffect",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/potion/RageMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "RageOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RageOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RageEffectExpires",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RageEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RageEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RageEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OffthepercEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "offtheperc_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/OffthepercEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OffthepercEffectExpires",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "offtheperc_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/OffthepercEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Offtheperc",
+      "type": "potioneffect",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "offtheperc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/potion/OffthepercMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HarrowingOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harrowing_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/HarrowingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HarrowingEffectExpires",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harrowing_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/HarrowingEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HarrowingEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harrowing_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/HarrowingEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Harrowing",
+      "type": "potioneffect",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harrowing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/potion/HarrowingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Needle",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/NeedleItem.java",
+          "src/main/resources/assets/beyondmc/models/item/needle.json"
+        ]
+      }
+    },
+    {
+      "name": "HeroinneedleRightclicked",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroinneedle_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/HeroinneedleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heroinneedle",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroinneedle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/heroinneedle.json",
+          "src/main/java/net/mcreator/beyondmc/item/HeroinneedleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Space",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/SpaceBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/space.json",
+          "src/main/resources/assets/beyondmc/models/item/space.json",
+          "src/main/resources/assets/beyondmc/models/block/space.json"
+        ]
+      }
+    },
+    {
+      "name": "Higher",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "higher",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/advancements/higher.json"
+        ]
+      }
+    },
+    {
+      "name": "HeroinneedleLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroinneedle_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/HeroinneedleLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heroin",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/HeroinItem.java",
+          "src/main/resources/assets/beyondmc/models/item/heroin.json"
+        ]
+      }
+    },
+    {
+      "name": "Heroinrecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroinrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/heroinrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RoidsEffectExpires",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roids_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RoidsEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RoidsEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roids_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RoidsEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Roids",
+      "type": "potioneffect",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roids",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/potion/RoidsMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Steroids",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steroids",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/steroids.json",
+          "src/main/java/net/mcreator/beyondmc/item/SteroidsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cup",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/CupItem.java",
+          "src/main/resources/assets/beyondmc/models/item/cup.json"
+        ]
+      }
+    },
+    {
+      "name": "Lean",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/LeanItem.java",
+          "src/main/resources/assets/beyondmc/models/item/lean.json"
+        ]
+      }
+    },
+    {
+      "name": "Leanrecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leanrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/leanrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Steroidcapsule",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steroidcapsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/steroidcapsule.json",
+          "src/main/java/net/mcreator/beyondmc/item/SteroidcapsuleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Steroidcapsulerecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steroidcapsulerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/steroidcapsulerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Steroidrecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steroidrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/steroidrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeaningEffectExpires",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaning_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LeaningEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeaningOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaning_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LeaningOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeaningEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaning_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LeaningEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leaning",
+      "type": "potioneffect",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/potion/LeaningMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciousplanks",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousplanks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/SuspiciousplanksBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/suspiciousplanks.json",
+          "src/main/resources/assets/beyondmc/models/item/suspiciousplanks.json",
+          "src/main/resources/assets/beyondmc/blockstates/suspiciousplanks.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciousplankrecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousplankrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/suspiciousplankrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Dollar",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dollar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/dollar.json",
+          "src/main/java/net/mcreator/beyondmc/item/DollarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dollarrecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dollarrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/dollarrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Stayoutofmyterritory",
+      "type": "musicdisc",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stayoutofmyterritory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/StayoutofmyterritoryItem.java",
+          "src/main/resources/assets/beyondmc/models/item/stayoutofmyterritory.json"
+        ]
+      }
+    },
+    {
+      "name": "Stayoutofmyterritoryrecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stayoutofmyterritoryrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/stayoutofmyterritoryrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Bettercallsaul",
+      "type": "musicdisc",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bettercallsaul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/BettercallsaulItem.java",
+          "src/main/resources/assets/beyondmc/models/item/bettercallsaul.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismarinecolossus",
+      "type": "musicdisc",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismarinecolossus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/PrismarinecolossusItem.java",
+          "src/main/resources/assets/beyondmc/models/item/prismarinecolossus.json"
+        ]
+      }
+    },
+    {
+      "name": "Prismarinesoldiers",
+      "type": "musicdisc",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismarinesoldiers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/prismarinesoldiers.json",
+          "src/main/java/net/mcreator/beyondmc/item/PrismarinesoldiersItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Silverore",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/SilveroreBlock.java",
+          "src/main/java/net/mcreator/beyondmc/world/features/ores/SilveroreFeature.java",
+          "src/main/resources/assets/beyondmc/blockstates/silverore.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/silverore_biome_modifier.json",
+          "src/main/resources/assets/beyondmc/models/block/silverore.json",
+          "src/main/resources/assets/beyondmc/models/item/silverore.json"
+        ]
+      }
+    },
+    {
+      "name": "Needlerecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needlerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/needlerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Heroinneedlerecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroinneedlerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/heroinneedlerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rawsilver",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawsilver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/item/RawsilverItem.java",
+          "src/main/resources/assets/beyondmc/models/item/rawsilver.json"
+        ]
+      }
+    },
+    {
+      "name": "Silveringot",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveringot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/silveringot.json",
+          "src/main/java/net/mcreator/beyondmc/item/SilveringotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Silveringotrecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveringotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/silveringotrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Methparticle",
+      "type": "particle",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/client/particle/MethparticleParticle.java",
+          "src/main/resources/assets/beyondmc/particles/methparticle.json"
+        ]
+      }
+    },
+    {
+      "name": "Roidparticle",
+      "type": "particle",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roidparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/particles/roidparticle.json",
+          "src/main/java/net/mcreator/beyondmc/client/particle/RoidparticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "RoidsOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roids_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RoidsOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ironbricks",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/ironbricks.json",
+          "src/main/resources/assets/beyondmc/models/block/ironbricks.json",
+          "src/main/java/net/mcreator/beyondmc/block/IronbricksBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/ironbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironbricksrecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/ironbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Silverbricks",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/silverbricks.json",
+          "src/main/java/net/mcreator/beyondmc/block/SilverbricksBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/silverbricks.json",
+          "src/main/resources/assets/beyondmc/models/block/silverbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Silverbricksrecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/recipes/silverbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Redstonelampon",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/redstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/RedstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/redstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/redstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "RedredstonelampoffRedstoneOn",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelampoff_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampoffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weedtag",
+      "type": "tag",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedtag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/weedtag.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciouslogdrops",
+      "type": "loottable",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciouslogdrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/loot_tables/blocks/suspiciouslog.json"
+        ]
+      }
+    },
+    {
+      "name": "Suspiciousleavesdrop",
+      "type": "loottable",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciousleavesdrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/loot_tables/blocks/suspiciousleaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Weeddrops",
+      "type": "loottable",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weeddrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/loot_tables/blocks/weeddrops.json"
+        ]
+      }
+    },
+    {
+      "name": "Farmlandtag",
+      "type": "tag",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmlandtag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crops/tags/blocks/farmland.json"
+        ]
+      }
+    },
+    {
+      "name": "SuspiciouspowderRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspiciouspowder_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/SuspiciouspowderRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coke0BlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_0_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/Coke0BlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coke0UpdateTick",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_0_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/Coke0UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coke0BlockAdded",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_0_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/Coke0BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coke3loottable",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_3loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/loot_tables/blocks/coke_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Weed3loottable",
+      "type": "loottable",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_3loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/loot_tables/blocks/weed_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Coke0",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/coke_0.json",
+          "src/main/java/net/mcreator/beyondmc/block/Coke0Block.java",
+          "src/main/resources/assets/beyondmc/blockstates/coke_0.json",
+          "src/main/resources/assets/beyondmc/models/item/coke_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Coke1",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/coke_1.json",
+          "src/main/resources/assets/beyondmc/blockstates/coke_1.json",
+          "src/main/java/net/mcreator/beyondmc/block/Coke1Block.java",
+          "src/main/resources/assets/beyondmc/models/block/coke_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Coke2",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/coke_2.json",
+          "src/main/java/net/mcreator/beyondmc/block/Coke2Block.java",
+          "src/main/resources/assets/beyondmc/models/item/coke_2.json",
+          "src/main/resources/assets/beyondmc/blockstates/coke_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Coke3",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/coke_3.json",
+          "src/main/resources/assets/beyondmc/models/item/coke_3.json",
+          "src/main/resources/assets/beyondmc/blockstates/coke_3.json",
+          "src/main/java/net/mcreator/beyondmc/block/Coke3Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Islandheisttheme1",
+      "type": "musicdisc",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "islandheisttheme_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/islandheisttheme_1.json",
+          "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Islandheisttheme2",
+      "type": "musicdisc",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "islandheisttheme_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/islandheisttheme_2.json",
+          "src/main/java/net/mcreator/beyondmc/item/Islandheisttheme2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Redredstonelamp",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/RedredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/redredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/redredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/redredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Blueredstonelamp",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/blueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RedredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/RedstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blueredstonelampon",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/blueredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/item/blueredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/blueredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlueredstonelamponBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlueredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pinkredstonelamp",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/PinkredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/pinkredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/pinkredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/pinkredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Pinkredstonelampon",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/pinkredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/pinkredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/PinkredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/pinkredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PinkredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PinkredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PinkredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightblueredstonelamp",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/lightblueredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/LightblueredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/lightblueredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/lightblueredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightblueredstonelampon",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/lightblueredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/lightblueredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/LightblueredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/lightblueredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "LightblueredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LightblueredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightblueredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightblueredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LightblueredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Purpleredstonelamp",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/purpleredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/PurpleredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/purpleredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/purpleredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Purpleredstonelampon",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/purpleredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/purpleredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/purpleredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/PurpleredstonelamponBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Greenredstonelamp",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/greenredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/greenredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/greenredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/GreenredstonelampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Greenredstonelampon",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/greenredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/greenredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/greenredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/GreenredstonelamponBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Yellowredstonelamp",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/YellowredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/yellowredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/yellowredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/yellowredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellowredstonelampon",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/YellowredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/yellowredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/item/yellowredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/yellowredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "Magentaredstonelamp",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentaredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/magentaredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/MagentaredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/magentaredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/magentaredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Magentaredstonelampon",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentaredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/magentaredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/MagentaredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/magentaredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/item/magentaredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "Limeredstonelamp",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limeredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/limeredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/LimeredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/limeredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/limeredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Limeredstonelampon",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limeredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/limeredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/item/limeredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/LimeredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/limeredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "Orangeredstonelamp",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangeredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/orangeredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/orangeredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/orangeredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/OrangeredstonelampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Orangeredstonelampon",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangeredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/orangeredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/orangeredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/orangeredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/OrangeredstonelamponBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Greyredstonelamp",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greyredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/GreyredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/greyredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/greyredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/greyredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Greyredstonelampon",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greyredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/GreyredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/greyredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/greyredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/greyredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "Cyanredstonelamp",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyanredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/CyanredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/cyanredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/cyanredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/cyanredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Cyanredstonelampon",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyanredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/cyanredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/CyanredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/cyanredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/cyanredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "Whiteredstonelamp",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiteredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/WhiteredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/whiteredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/whiteredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/whiteredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Whiteredstonelampon",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiteredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/blockstates/whiteredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/WhiteredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/item/whiteredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/block/whiteredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PurpleredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpleredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/PurpleredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/GreenredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/GreenredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YellowredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/YellowredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YellowredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/YellowredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagentaredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentaredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/MagentaredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagentaredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magentaredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/MagentaredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LimeredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limeredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LimeredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LimeredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limeredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LimeredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangeredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/OrangeredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangeredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/OrangeredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreyredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greyredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/GreyredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreyredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greyredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/GreyredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CyanredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyanredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/CyanredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CyanredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyanredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/CyanredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiteredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/WhiteredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiteredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/WhiteredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightgreyredstonelamp",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgreyredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/LightgreyredstonelampBlock.java",
+          "src/main/resources/assets/beyondmc/blockstates/lightgreyredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/lightgreyredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/block/lightgreyredstonelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightgreyredstonelampon",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgreyredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/item/lightgreyredstonelampon.json",
+          "src/main/java/net/mcreator/beyondmc/block/LightgreyredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/lightgreyredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/lightgreyredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "LightgreyredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgreyredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LightgreyredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightgreyredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgreyredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/LightgreyredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blackredstonelamp",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackredstonelamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondmc/models/block/blackredstonelamp.json",
+          "src/main/resources/assets/beyondmc/models/item/blackredstonelamp.json",
+          "src/main/resources/assets/beyondmc/blockstates/blackredstonelamp.json",
+          "src/main/java/net/mcreator/beyondmc/block/BlackredstonelampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackredstonelamponRedstoneOff",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackredstonelampon_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlackredstonelamponRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blackredstonelampon",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackredstonelampon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/block/BlackredstonelamponBlock.java",
+          "src/main/resources/assets/beyondmc/models/block/blackredstonelampon.json",
+          "src/main/resources/assets/beyondmc/blockstates/blackredstonelampon.json",
+          "src/main/resources/assets/beyondmc/models/item/blackredstonelampon.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackredstonelampRedstoneOn",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackredstonelamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/BlackredstonelampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alexdeadpool",
+      "type": "livingentity",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alexdeadpool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/client/renderer/AlexdeadpoolRenderer.java",
+          "src/main/java/net/mcreator/beyondmc/entity/AlexdeadpoolEntity.java",
+          "src/main/resources/assets/beyondmc/models/item/alexdeadpool_spawn_egg.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/alexdeadpool_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "KatanaToolInHandTick",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/KatanaToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gremlin",
+      "type": "animatedentity",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gremlin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondmc/forge/biome_modifier/gremlin_biome_modifier.json",
+          "src/main/resources/assets/beyondmc/models/item/gremlin_spawn_egg.json",
+          "src/main/java/net/mcreator/beyondmc/entity/GremlinEntity.java",
+          "src/main/java/net/mcreator/beyondmc/entity/model/GremlinModel.java",
+          "src/main/java/net/mcreator/beyondmc/client/renderer/GremlinRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KatanaRightclicked",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/procedures/KatanaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redcoat",
+      "type": "livingentity",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redcoat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondmc/client/renderer/RedcoatRenderer.java",
+          "src/main/resources/assets/beyondmc/models/item/redcoat_spawn_egg.json",
+          "src/main/resources/data/beyondmc/forge/biome_modifier/redcoat_biome_modifier.json",
+          "src/main/java/net/mcreator/beyondmc/entity/RedcoatEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "amongus_attack",
+      "files": [
+        "amongus_attack"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "amongus_death",
+      "files": [
+        "amongus_death_-_copy"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "amongus_passive",
+      "files": [
+        "amongus_passive_-_copy"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "amongwalk",
+      "files": [
+        "amongwalk"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "ankles",
+      "files": [
+        "ankles"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "gauntlet2",
+      "files": [
+        "gauntlet2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gauntletsound",
+      "files": [
+        "gauntletsound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gremlindeath",
+      "files": [
+        "gremlindeath"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "gremlinfootsteps",
+      "files": [
+        "gremlinfootsteps"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "gremlinouch",
+      "files": [
+        "gremlinouch"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "homedeopt",
+      "files": [
+        "homedepot"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "passivegremlin",
+      "files": [
+        "passivegremlin"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "pistolsound",
+      "files": [
+        "pistolsound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bettercallsaul",
+      "files": [
+        "bettercallsaul"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "gucci_gang",
+      "files": [
+        "gucci_gang"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "breakingbadintro",
+      "files": [
+        "breakingbadintro_-_copy"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "higher",
+      "files": [
+        "higher_-_copy"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "highest_in_the_room",
+      "files": [
+        "highest_in_the_room_-_copy"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "stayoutofmyterritory",
+      "files": [
+        "stayoutofmyterritory"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "prismarinecolossus",
+      "files": [
+        "prismarinecolossus"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "peismarinesoldiers",
+      "files": [
+        "prismarinesoldiers"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "islandheist1",
+      "files": [
+        "huge_ret"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "islandheist2",
+      "files": [
+        "tgyhjv"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.beyondmc.stayoutofmyterritory": "Stay out of my territory",
+      "block.beyondmc.redredstonelamp": "Red redstone lamp",
+      "block.beyondmc.weed_1": "Weed 1",
+      "block.beyondmc.weed_0": "Weed 0",
+      "item.beyondmc.heroin": "Heroin",
+      "block.beyondmc.redstonelampon": "Red redstone lamp on",
+      "advancements.high.descr": "Ascend",
+      "block.beyondmc.magentaredstonelampon": "Magenta redstone lamp on",
+      "block.beyondmc.weed_3": "Weed 3",
+      "block.beyondmc.weed_2": "Weed 2",
+      "item.beyondmc.pistol": "Pistol",
+      "block.beyondmc.silverore": "Silverore",
+      "block.beyondmc.orangeredstonelampon": "Orange redstone lamp on",
+      "block.beyondmc.space": "Space",
+      "item.beyondmc.prismarinegauntlet": "Prismarine gauntlet",
+      "item.beyondmc.prismarinecolossus": "Prismarine colossus",
+      "entity.beyondmc.amongus": "Amongus",
+      "block.beyondmc.yellowredstonelampon": "Yellow redstone lamp on",
+      "block.beyondmc.coke_0": "Coke 0",
+      "effect.beyondmc.offtheperc": "Perc",
+      "item.beyondmc.essence": "Essence",
+      "block.beyondmc.cyanredstonelampon": "Cyan redstone lamp on",
+      "block.beyondmc.distilledmethblock": "Distilled meth block",
+      "block.beyondmc.lightblueredstonelamp": "Light blue redstone lamp",
+      "subtitles.gauntletsound": "",
+      "item.beyondmc.meth": "Meth",
+      "subtitles.gremlinfootsteps": "",
+      "subtitles.bettercallsaul": "",
+      "subtitles.higher": "",
+      "item.beyondmc.islandheisttheme_2.desc": "Island heist theme 2",
+      "item.beyondmc.katana": "Katana",
+      "block.beyondmc.greyredstonelamp": "Grey redstone lamp",
+      "block.beyondmc.coke_3": "Coke 3",
+      "subtitles.gremlinouch": "",
+      "block.beyondmc.coke_1": "Coke 1",
+      "block.beyondmc.coke_2": "Coke 2",
+      "item.beyondmc.islandheisttheme_1": "Island heist theme 1",
+      "block.beyondmc.purpleredstonelamp": "Purple redstone lamp",
+      "item.beyondmc.gremlin_spawn_egg": "Gremlin Spawn Egg",
+      "item.beyondmc.islandheisttheme_2": "Island heist theme 2",
+      "subtitles.passivegremlin": "",
+      "item.beyondmc.cocain": "Cocain",
+      "item.beyondmc.silveringot": "Silveringot",
+      "item.beyondmc.weed": "Weed",
+      "subtitles.breakingbadintro": "",
+      "subtitles.amongus_attack": "",
+      "item.beyondmc.homedepot.desc": "Your dad\u0027s boss music",
+      "effect.beyondmc.leaning": "Leaning",
+      "block.beyondmc.methglass": "Meth glass",
+      "subtitles.prismarinecolossus": "",
+      "block.beyondmc.cyanredstonelamp": "Cyan redstone lamp",
+      "block.beyondmc.blackredstonelamp": "Black redstone lamp",
+      "effect.beyondmc.relaxation": "relaxation",
+      "item.beyondmc.prismarinesoldiers": "Prismarine soldiers",
+      "block.beyondmc.magentaredstonelamp": "Magenta redstone lamp",
+      "effect.beyondmc.roids": "Roids",
+      "subtitles.amongus_death": "",
+      "subtitles.gremlindeath": "",
+      "block.beyondmc.pinkredstonelampon": "Blueredstonelampon",
+      "item.beyondmc.susknife": "Susknife",
+      "block.beyondmc.suspiciousplanks": "Suspiciousplanks",
+      "block.beyondmc.yellowredstonelamp": "Yellow redstone lamp",
+      "subtitles.gauntlet2": "",
+      "block.beyondmc.cocainblock": "Cocain block",
+      "block.beyondmc.limeredstonelamp": "Lime redstone lamp",
+      "block.beyondmc.silverbricks": "Silver bricks",
+      "block.beyondmc.orangeredstonelamp": "Orange redstone lamp",
+      "item.beyondmc.bettercallsaul.desc": "World\u0027s second best lawyer theme song",
+      "subtitles.stayoutofmyterritory": "",
+      "block.beyondmc.whiteredstonelampon": "White redstonelamp on",
+      "subtitles.prismarinesoldiers": "",
+      "block.beyondmc.lightgreyredstonelampon": "Light grey redstonelamp on",
+      "entity.beyondmc.redcoat": "Redcoat",
+      "item.beyondmc.suspiciouspowder": "Suspicious powder",
+      "item.beyondmc.heroinneedle": "Heroinneedle",
+      "block.beyondmc.blueredstonelamp": "Blue redstone lamp",
+      "block.beyondmc.suspiciousleaves": "Suspicious leaves",
+      "item.beyondmc.bettercallsaul": "Better call saul",
+      "item.beyondmc.stayoutofmyterritory.desc": "DLZ",
+      "item.beyondmc.amongus_spawn_egg": "Amongus Spawn Egg",
+      "block.beyondmc.limeredstonelampon": "Lime redstone lampon",
+      "item.beyondmc.dollar": "Dollar",
+      "item.beyondmc.perc_30": "Perc 3 0",
+      "item.beyondmc.cup": "Cup",
+      "item.beyondmc.prismarinecolossus.desc": "RUN",
+      "block.beyondmc.blackredstonelampon": "Black redstone lamp on",
+      "block.beyondmc.purpleredstonelampon": "Purple redstone lamp on",
+      "advancements.high.title": "High",
+      "item.beyondmc.redcoat_spawn_egg": "Redcoat Spawn Egg",
+      "item.beyondmc.homedepot": "Homedepot",
+      "item.beyondmc.rawsilver": "Raw silver",
+      "entity.beyondmc.alexdeadpool": "Alexdeadpool",
+      "subtitles.ankles": "",
+      "item.beyondmc.suspiciousseeds": "Suspicious seeds",
+      "subtitles.highest_in_the_room": "",
+      "block.beyondmc.blueredstonelampon": "Blue redstone lamp on",
+      "block.beyondmc.whiteredstonelamp": "White redstone lamp",
+      "subtitles.gucci_gang": "",
+      "item.beyondmc.islandheisttheme_1.desc": "Island heist theme 1",
+      "item.beyondmc.hammer": "Hammer",
+      "entity.beyondmc.gremlin": "Gremlin",
+      "block.beyondmc.pinkredstonelamp": "Pinkredstonelamp",
+      "item.beyondmc.alexdeadpool_spawn_egg": "Alexdeadpool Spawn Egg",
+      "item.beyondmc.needle": "Needle",
+      "block.beyondmc.greyredstonelampon": "Grey redstone lamp on",
+      "subtitles.amongus_passive": "",
+      "effect.beyondmc.rage": "Rage",
+      "subtitles.islandheist2": "",
+      "subtitles.isnlandheist1": "",
+      "subtitles.islandheist1": "",
+      "item.beyondmc.steroids": "Steroids",
+      "itemGroup.tabbeyond": "Beyond",
+      "effect.beyondmc.harrowing": "Harrowing",
+      "advancements.higher.title": "Higher",
+      "block.beyondmc.lightgreyredstonelamp": "Light grey redstone lamp",
+      "advancements.higher.descr": "Can we get much higher?",
+      "block.beyondmc.greenredstonelamp": "Green redstone lamp",
+      "subtitles.pistolsound": "",
+      "subtitles.homedeopt": "",
+      "item.beyondmc.steroidcapsule": "Steroid capsule",
+      "block.beyondmc.lightblueredstonelampon": "Light blue redstone lamp on",
+      "subtitles.amongwalk": "",
+      "block.beyondmc.sky": "Sky",
+      "item.beyondmc.lean": "Lean",
+      "block.beyondmc.ironbricks": "Iron bricks",
+      "block.beyondmc.methylamineore": "Methylamine ore",
+      "block.beyondmc.core": "Core",
+      "item.beyondmc.prismarinesoldiers.desc": "HIDE",
+      "subtitles.peismarinesoldiers": "",
+      "block.beyondmc.suspiciouslog": "Suspicious log",
+      "block.beyondmc.greenredstonelampon": "Green redstone lamp on"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "beyondmc",
+    "modName": "Beyondmc",
+    "version": "1.0.0",
+    "description": "Ongoing development. We do not endorse or condone the use of drugs, nor do we glorify the use of which in this mod.",
+    "author": "Alexdeadpool",
+    "websiteURL": "https://discord.gg/q9RCaCM2tQ",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "methparticle",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.beyondmc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

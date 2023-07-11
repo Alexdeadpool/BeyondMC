@@ -35,6 +35,7 @@ public class AlexdeadpoolEntity extends Monster {
 
 	public AlexdeadpoolEntity(EntityType<AlexdeadpoolEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 	}
@@ -62,6 +63,11 @@ public class AlexdeadpoolEntity extends Monster {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public double getMyRidingOffset() {
+		return -0.35D;
 	}
 
 	@Override

@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class SilveroreBlock extends Block {
 	public SilveroreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.9999999999999998f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

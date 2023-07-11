@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class PurpleredstonelampBlock extends Block {
 	public PurpleredstonelampBlock() {
-		super(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS).sound(SoundType.GLASS).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GLASS).strength(1f, 10f));
 	}
 
 	@Override

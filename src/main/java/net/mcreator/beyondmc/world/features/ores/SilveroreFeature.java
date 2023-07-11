@@ -34,7 +34,10 @@ public class SilveroreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new SilveroreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("beyondmc:silverore", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), BeyondmcModBlocks.SILVERORE.get().defaultBlockState())), 8));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), BeyondmcModBlocks.SILVERORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), BeyondmcModBlocks.SILVERORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), BeyondmcModBlocks.SILVERORE.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), BeyondmcModBlocks.SILVERORE.get().defaultBlockState())), 8));
 		PLACED_FEATURE = PlacementUtils.register("beyondmc:silverore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(14), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
